@@ -12,7 +12,7 @@ Undertook this revision because the integratin of online and in-person workshops
 ```{r}
 Sys.setenv(TZ="America/New_York")
 library(rvest)
-library(lubridate)
+# library(lubridate)
 library(clock)
 library(tidyverse)
 library(fs)
@@ -60,7 +60,8 @@ my_df$registration <- registration_list
 
 Transform the data to look just like the original from Joel.
 
-```{r}
+```
+{r}
 my_df <- my_df %>% 
     rename(date_orig = date) %>% 
     mutate(workshop_id = str_extract(registration, "(?<=event/)\\d+")) %>% 
@@ -80,6 +81,34 @@ my_df <- my_df %>%
 my_df
 ```
 
+
+```{r}
+ty_df <- my_df
+foo <- ty_df %>% 
+    mutate(workshop_id = str_extract(registration, "(?<=event/)\\d+")) %>% 
+    mutate(workshop_begins = date_time_parse(glue::glue("{date} {str_extract(time, '.*[ap]m(?= - )')}"),
+                                             "America/New_York",
+                                             format = "%a, %b %d, %Y %I:%M%p")) %>%
+    mutate(begins_display = date_format(workshop_begins, format = "%I:%M %p")) %>% 
+    mutate(workshop_ends = date_time_parse(glue::glue("{date} {str_extract(time, '(?<= - ).*[ap]m')}"),
+                                           "America/New_York",
+                                           format = "%a, %b %d, %Y %I:%M%p")) %>% 
+    mutate(ends_display = date_format(workshop_ends, format = "%r")) %>% 
+    mutate(workshop_duration_minutes = as.numeric(workshop_ends - workshop_begins) * 60) %>% 
+    mutate(description = str_extract(description, ".*(?<=\\.)")) %>%            # take only the first paragraph
+    mutate(registration_link = str_extract(registration, ".*(?=\\?)")) %>% 
+    mutate(date = date_format(workshop_begins, format = "%F")) %>%
+    mutate(day = date_format(workshop_begins, format = "%a")) %>% 
+    select(workshop_id, date, day, title, presenter, workshop_duration_minutes, 
+           begins_display, ends_display, description, registration_link, location) 
+foo
+
+# googlesheets4::gs4_create("foo Master Workshop list for Semester",
+#                           sheets = list(Sheet1 = foo),
+#                           timeZone = "America/New_York")
+```
+
+
 ## Write output
 
 Manually move, and rename, the google sheet into the proper CDVS google drive space.
@@ -88,7 +117,7 @@ Manually move, and rename, the google sheet into the proper CDVS google drive sp
 fs::dir_create("output")
 
 fs::file_copy("output/workshops.csv",
-              paste("output/workshops.bak", Sys.Date(), "csv", sep = "." ))
+              paste("output/workshops.bak", Sys.Date(), Sys.getpid(), "csv", sep = "." ))
 
 write_csv(my_df, "output/workshops.csv")
 ```
