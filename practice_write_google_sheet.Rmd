@@ -1,0 +1,51 @@
+---
+title: "practice_upload"
+output: html_notebook
+---
+
+from:  https://googlesheets4.tidyverse.org/
+
+practice creating a google sheet
+
+```{r}
+library(tidyverse)
+library(googlesheets4)
+```
+
+
+
+```
+{r}
+(ss <- gs4_create("fluffy-bunny", sheets = list(flowers = head(iris))))
+```
+
+```{r}
+library(tidyverse)
+
+mick_df <- band_members %>% 
+    slice(n = 1)
+
+john_df <- band_members %>% 
+    slice(n = 2)
+
+paul_df <- band_members %>% 
+    slice(n = 3)
+
+googlesheets4::gs4_create("mick", sheets = list(sname = mick_df))
+googlesheets4::gs4_create("john", sheets = list(sname = john_df))
+googlesheets4::gs4_create("paul", sheets = list(sname = paul_df))
+```
+
+
+```{r}
+mem_list <- band_members %>% 
+     rowwise() %>%
+     group_map(tibble)
+
+walk(
+  mem_list,
+  ~ gs4_create(.$name,
+    sheets = list(sname = .))
+)
+```
+
