@@ -1,0 +1,64 @@
+---
+title: "Create CSV file of Future Workshop"
+subtitle: "Data are from the LibCal API, parsed by rvest and dplyr"
+date: "`r Sys.Date()`"
+output: html_notebook
+---
+
+The is the RMD to Joel's rvestLibcalCode.R
+
+Undertook this revision because the integratin of online and in-person workshops made Joel's script ineffective.  Nonetheless, borrowed heavily from his previous work.
+
+```{r message=FALSE, warning=FALSE}
+Sys.setenv(TZ="America/New_York")
+library(rvest)
+library(clock)
+library(tidyverse)
+library(fs)
+```
+
+## Get Data
+
+Ingest data from web page (LibCal API) & make a column headers template for the attendance sheets that will be written to Google.
+
+### harvest webpage data from LibCal API
+
+this next CODE CHUNK is DISABLED, but designed to rerun the harvest script
+
+
+```{r get wrangled data, include=FALSE}
+source("01_gather_and_wrangle.R", local = knitr::knit_global())
+# or sys.source("your-script.R", envir = knitr::knit_global())
+```
+
+
+## Write output
+
+Manually move, and rename, the google sheet into the proper CDVS google drive space.
+
+```{r}
+fs::dir_create("output")
+
+fs::file_copy("output/workshops.csv", 
+              glue::glue("output/workshops.bak.{Sys.Date()}.{round(Sys.getpid() * runif(1))}.csv"))
+
+write_csv(my_df, "output/workshops.csv")
+
+write_csv(for_goog_flyer_df, "output/forgoog_flyer.csv")
+```
+
+## For Flyer -- Upload manully to Google Sheets.  
+
+Upload to:  `Google Drive > CDVS > Services > Workshops > [2021 Fall] > Planning`
+
+There are extraneous leading single apostrophes showing up in the uploaded data (i.e. on Google Drive, in the Sheet.)  For now, instead of `gs4_create()`, upload the forgoog_flyer.csv file **manually** to Google Drive, then open the csv on Google Drive, and then "Open With" as a Sheet.
+
+```
+{r eval=FALSE, include=FALSE}
+# googlesheets4::gs4_create("Master Workshop list for Semester", sheets = list(sname = my_df))
+
+googlesheets4::gs4_create("Master Workshop list for Semester",
+                          sheets = list(Sheet1 = for_goog_df),
+                          timeZone = "America/New_York")
+```
+

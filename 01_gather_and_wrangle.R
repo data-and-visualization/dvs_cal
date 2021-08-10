@@ -1,45 +1,34 @@
----
-title: "Create CSV file of Future Workshop"
-subtitle: "Data are from the LibCal API, parsed by rvest and dplyr"
-date: "`r Sys.Date()`"
-output: html_notebook
----
+# ---
+# title: "Create CSV file of Future Workshop"
+# subtitle: "Data are from the LibCal API, parsed by rvest and dplyr"
+# date: "`r Sys.Date()`"
+# output: html_notebook
+# ---
 
-The is the RMD to Joel's rvestLibcalCode.R
+# Undertook this revision because the integratin of online and in-person workshops made Joel's script ineffective.  Nonetheless, borrowed heavily from his previous work.
 
-Undertook this revision because the integratin of online and in-person workshops made Joel's script ineffective.  Nonetheless, borrowed heavily from his previous work.
 
-```{r}
 Sys.setenv(TZ="America/New_York")
 library(rvest)
 library(clock)
 library(tidyverse)
 library(fs)
-```
 
-Import LibCal API list of future workshops.
 
-```{r}
+# Import LibCal API list of future workshops.
 dvs_cal <- read_html("https://api3.libcal.com/api_events.php?iid=971&m=upc&cid=3819&c=&d=25858&l=50&target=_blank")
-```
+
 
 ## Wrangle data
-
-```{r}
 nregistration <- html_nodes(dvs_cal, ".s-lc-ea-treg a")
 registration_list <- html_attr(nregistration, "href")
-```
 
-Convert rvest response into a tibble by parsing the HTML table.
 
-```{r}
+# Convert rvest response into a tibble by parsing the HTML table.
 by_workshop <- html_nodes(dvs_cal, ".cat25858") %>% 
     html_table()
-```
 
-Data come back in long tidy format.  Convert to wide.  lines 46 and 47 (ish) take into account that the API delivers inconsistent information based on workshop type.  i.e. online workshops report less data than in-person workshops
-
-```{r}
+# Data come back in long tidy format.  Convert to wide.  lines 46 and 47 (ish) take into account that the API delivers inconsistent information based on workshop type.  i.e. online workshops report less data than in-person workshops
 my_df <- tibble(by_workshop) %>% 
     tidyr::unnest(cols = everything()) %>% 
     mutate(X1 = if_else(X2 == "n/a", "Location:", X1)) %>%      # this line
@@ -48,18 +37,11 @@ my_df <- tibble(by_workshop) %>%
     janitor::clean_names() %>% 
     select(-c("campus", "categories")) %>% 
     unnest(cols = everything())
-```
 
-
-Insert workshop URL into the data frame
-
-```{r}
+# Insert workshop URL into the data frame
 my_df$registration <- registration_list
-```
 
-Transform the data to look just like the original from Joel.
-
-```{r}
+# Transform the data to look just like the original from Joel.
 my_df <- my_df %>%
     mutate(workshop_id = str_extract(registration, "(?<=event/)\\d+")) %>% 
     mutate(workshop_begins = date_time_parse(glue::glue("{date} {str_extract(time, '.*[ap]m(?= - )')}"),
@@ -86,33 +68,8 @@ for_goog_df <- my_df %>%
     select(workshop_id, date, day = day_flyer, title, presenter,  online_in_person = online_in_person_flyer,
            time = time_flyer, workshop_begins = begins_display, workshop_ends = ends_display, 
            workshop_duration_minutes, description, registration_link, location) 
-```
 
-## Write output
-
-Manually move, and rename, the google sheet into the proper CDVS google drive space.
-
-```{r}
-fs::dir_create("output")
-
-fs::file_copy("output/workshops.csv", 
-              glue::glue("output/workshops.bak.{Sys.Date()}.{round(Sys.getpid() * runif(1))}.csv"))
-
-write_csv(my_df, "output/workshops.csv")
-
-write_csv(for_goog_df, "output/forgoog.csv")
-```
-
-## Upload mnaull to Google Sheets.  
-
-There are extraneous leading single apostrophes showing up in the uploaded data (i.e. on Google Drive, in the Sheet.)  For now, instead of `gs4_create()`, upload the forgood.csv file **manually** to Google Drive, then open the csv on Google Drive, and then "Open With" as a Sheet.
-
-```
-{r eval=FALSE, include=FALSE}
-# googlesheets4::gs4_create("Master Workshop list for Semester", sheets = list(sname = my_df))
-
-googlesheets4::gs4_create("Master Workshop list for Semester",
-                          sheets = list(Sheet1 = for_goog_df),
-                          timeZone = "America/New_York")
-```
+# my_df %>% 
+#     select(date, presenter, registration = registration_link, time, title, description)  %>% 
+#     write_csv("../workflow_cdvs_AttendanceSheets/temp.csv")
 

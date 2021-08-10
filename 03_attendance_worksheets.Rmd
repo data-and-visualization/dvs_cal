@@ -1,0 +1,96 @@
+---
+title: "Create Attendance Worksheets"
+output: html_notebook
+---
+
+Make one blank attendance template for each workshop. Write each blank template to Google Drive as a spreadsheet. 
+
+## Library Packages
+
+```{r message=FALSE, warning=FALSE, include=FALSE}
+Sys.setenv(TZ="America/New_York")
+library(rvest)
+library(clock)
+library(tidyverse)
+library(fs)
+library(googlesheets4)
+```
+
+## Get Data
+
+Ingest data from web page (LibCal API) & make a column headers template for the attendance sheets that will be written to Google.
+
+### harvest webpage data from LibCal API
+
+this next CODE CHUNK is DISABLED, but designed to rerun the harvest script
+
+```
+{r get wrangled data, include=FALSE}
+source("01_gather_and_wrangle.R", local = knitr::knit_global())
+# or sys.source("your-script.R", envir = knitr::knit_global())
+```
+
+Since the API can only be used at the begining of the semester, and since `01_gather_and_wrangle.R` was already called (by `02_foo.Rmd`) and generated `output/workshops.csv`, here, rather, we will simply ingest the file output/workshops.csv.  NOTE: `01_gather_and_wrangle.R` if run after the begining fo the semester, will overwrite `workshops.csv`.  In this case, use `read_csv()` to import one of the back-up files found in the output directory.
+
+```{r message=FALSE, warning=FALSE, include=FALSE}
+my_df <- read_csv("output/workshops.csv")
+```
+
+
+### worksheets template header
+
+make a vector of column headings that will become the headings of the google sheests attendance records
+
+```{r}
+blank_df <- tibble("Attended (x or blank)" = NA,
+                "Registration Status (Registered, Waitlist, or Walk-in)"  = NA,
+                "First Name" = NA,
+                "Last Name" = NA,
+                "Email" = NA,
+                "Booking Made" = NA,
+                "Attendance" = NA,
+                "Are you affiliated with Duke University, Duke Medical Center, DCRI, or another Duke group?" = NA,
+                "Academic Status (or other)" = NA,
+                "Discipline or Affiliation" = NA,
+                "Institutes, Initiatives, or Program Affiliation" = NA,
+                "Where did you hear about this event?" = NA,
+                "Have you consulted with Data and Visualization Services before this workshop?" = NA,
+                "Would you like to receive more information about DVS events and training?" = NA,
+                "I'm interested in registering for this workshop because:" = NA,
+                "If other, describe below:" = NA)
+```
+
+## Wrangle
+
+```{r}
+my_df <- my_df %>% 
+    bind_cols(blank_df) %>% 
+    rename(`Workshop Date` = date) %>%
+    select(`Attended (x or blank)`, 
+           `Registration Status (Registered, Waitlist, or Walk-in)`,
+           `Workshop Date`,
+           `Workshop Name` = title,
+           `WorkshopID` = workshop_id,
+           `First Name`:last_col())
+```
+
+
+## Upload to Google Drive
+
+The following code chunks are manually disabled because they write files to google drive.  This is "belt and suspenders" caution.  To enable the code-blocks, remove the carriage-return at the end of the third backtick and before the first open curly brace.
+
+After uploaded to Google Account's homedrive, ...  
+Move to  `Google Drive > CDVS > Services > Workshops > [2021 Fall] > Attendance`
+
+```
+{r}
+workshop_list_to_upload_into_GoogleDrive <- my_df %>% 
+   rowwise() %>%
+   group_map(tibble)  # make each row it's own tibble
+
+walk(
+  workshop_list_to_upload_into_GoogleDrive,
+  ~ gs4_create(.$`Workshop Name`, sheets = list(attendance = .))
+)
+```
+
