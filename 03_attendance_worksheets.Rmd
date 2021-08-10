@@ -22,7 +22,7 @@ Ingest data from web page (LibCal API) & make a column headers template for the 
 
 ### harvest webpage data from LibCal API
 
-this next CODE CHUNK is DISABLED, but designed to rerun the harvest script
+this next CODE CHUNK is DISABLED, but designed to rerun the harvest script.  INSTEAD skip to the `ingest_csv` code chunk.
 
 ```
 {r get wrangled data, include=FALSE}
@@ -30,9 +30,9 @@ source("01_gather_and_wrangle.R", local = knitr::knit_global())
 # or sys.source("your-script.R", envir = knitr::knit_global())
 ```
 
-Since the API can only be used at the begining of the semester, and since `01_gather_and_wrangle.R` was already called (by `02_foo.Rmd`) and generated `output/workshops.csv`, here, rather, we will simply ingest the file output/workshops.csv.  NOTE: `01_gather_and_wrangle.R` if run after the begining fo the semester, will overwrite `workshops.csv`.  In this case, use `read_csv()` to import one of the back-up files found in the output directory.
+Since the API can only be used at the beginning of the semester, and since `01_gather_and_wrangle.R` was already called (by `02_foo.Rmd`) and generated `output/workshops.csv`, here, rather, we will simply ingest the file output/workshops.csv.  NOTE: `01_gather_and_wrangle.R`, if run after the beginning fo the semester, will overwrite `workshops.csv`.  In this case, use `read_csv()` to import one of the back-up files found in the `output` directory.
 
-```{r message=FALSE, warning=FALSE, include=FALSE}
+```{r ingest csv, message=FALSE, warning=FALSE, include=FALSE}
 my_df <- read_csv("output/workshops.csv")
 ```
 

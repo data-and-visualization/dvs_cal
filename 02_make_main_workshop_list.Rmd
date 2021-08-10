@@ -1,19 +1,21 @@
 ---
-title: "Create CSV file of Future Workshop"
+title: "Create CSV file of Future Workshops"
 subtitle: "Data are from the LibCal API, parsed by rvest and dplyr"
 date: "`r Sys.Date()`"
 output: html_notebook
 ---
 
-The is the RMD to Joel's rvestLibcalCode.R
+1. Run this at the beginning of the semester to generate the main workshop list
+1. Use this to generate the workshop flyer, for advertising
+1. This script depends on `01_gather_and_wrangle.R` to harvest the data
 
-Undertook this revision because the integratin of online and in-person workshops made Joel's script ineffective.  Nonetheless, borrowed heavily from his previous work.
+## Release Notes
+
+- August 10, 2021:  Undertook this revision because the integration of online and in-person workshops made Joel's script ineffective.  Nonetheless, borrowed heavily from his previous work.  The RMD migration of Joel's `rvestLibcalCode.R`
+
+## library packages
 
 ```{r message=FALSE, warning=FALSE}
-Sys.setenv(TZ="America/New_York")
-library(rvest)
-library(clock)
-library(tidyverse)
 library(fs)
 ```
 
@@ -32,6 +34,18 @@ source("01_gather_and_wrangle.R", local = knitr::knit_global())
 ```
 
 
+## Wrangle Data
+
+```{r}
+for_goog_flyer_df <- my_df %>% 
+    select_if(is.character) %>% 
+    select(workshop_id, date, day = day_flyer, title, presenter,  online_in_person = online_in_person_flyer,
+           time = time_flyer, workshop_begins = begins_display, workshop_ends = ends_display, 
+           workshop_duration_minutes, description, registration_link, location) 
+```
+
+
+
 ## Write output
 
 Manually move, and rename, the google sheet into the proper CDVS google drive space.
@@ -44,12 +58,12 @@ fs::file_copy("output/workshops.csv",
 
 write_csv(my_df, "output/workshops.csv")
 
-write_csv(for_goog_flyer_df, "output/forgoog_flyer.csv")
+write_csv(for_goog_flyer_df, "output/forgoog_flyer.csv")  
 ```
 
 ## For Flyer -- Upload manully to Google Sheets.  
 
-Upload to:  `Google Drive > CDVS > Services > Workshops > [2021 Fall] > Planning`
+Manually upload `for_googflyer.csv` to:  `Google Drive > CDVS > Services > Workshops > [2021 Fall] > Planning`
 
 There are extraneous leading single apostrophes showing up in the uploaded data (i.e. on Google Drive, in the Sheet.)  For now, instead of `gs4_create()`, upload the forgoog_flyer.csv file **manually** to Google Drive, then open the csv on Google Drive, and then "Open With" as a Sheet.
 

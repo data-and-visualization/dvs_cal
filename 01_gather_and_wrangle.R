@@ -7,6 +7,8 @@
 
 # Undertook this revision because the integratin of online and in-person workshops made Joel's script ineffective.  Nonetheless, borrowed heavily from his previous work.
 
+# Run this script to harvest data from the SpringShare LibCal API.
+# This script is calle by `02_make_main_workshop_list.Rmd`
 
 Sys.setenv(TZ="America/New_York")
 library(rvest)
@@ -63,13 +65,4 @@ my_df <- my_df %>%
     mutate(online_in_person_flyer = if_else(location == "Online", location, "In-Person"))
 
 
-for_goog_df <- my_df %>% 
-    select_if(is.character) %>% 
-    select(workshop_id, date, day = day_flyer, title, presenter,  online_in_person = online_in_person_flyer,
-           time = time_flyer, workshop_begins = begins_display, workshop_ends = ends_display, 
-           workshop_duration_minutes, description, registration_link, location) 
-
-# my_df %>% 
-#     select(date, presenter, registration = registration_link, time, title, description)  %>% 
-#     write_csv("../workflow_cdvs_AttendanceSheets/temp.csv")
 
