@@ -2,7 +2,7 @@
 
 ![LifeCycle: Stable](https://img.shields.io/badge/lifecycle-stable-brightgreen "LifeCycle: Stable")
 
-API orchetration with **SpringShare LibCal** to generate
+API orchestration with **SpringShare LibCal** to generate
 
 - beginning of semester workshop list
 - workshop attendance sheets
