@@ -80,3 +80,5 @@ write_csv(panopto_report,
           )))
 ```
 
+
+Sophia can retrieve this report from github

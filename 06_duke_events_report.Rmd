@@ -82,3 +82,5 @@ write_csv(duke_events,
             .sep = "."
           )))
 ```
+
+Sophia can retrieve this report from github
