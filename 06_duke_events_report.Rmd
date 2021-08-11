@@ -1,0 +1,84 @@
+---
+title: "Duke Events Calendar"
+output: html_notebook
+---
+
+This is a report Sophia uses to send to the Duke Events people.  This gets our workshops up on the **Big Board**
+
+```{r}
+library(tidyverse)
+library(here)
+library(fs)
+library(glue)
+```
+
+
+```{r}
+my_df <- read_csv("output/workshops.csv")
+DVS_workshop_schedule <- my_df 
+```
+
+```{r}
+glimpse(my_df)
+```
+
+## Duke Events Report
+
+Create The Duke Events Report.  From the previous version, the following fields are needed.
+
+- Title
+- Presenter
+- Series Name
+- Co-sponsors
+- Date  (Must be miliarty time.)
+- Start Time Clean
+- End Time Clean
+- Duration in hours
+- Plain Text Descriptions
+- Location
+
+
+```{r}
+duke_events <- DVS_workshop_schedule %>% 
+  mutate(series_title = "Center for Data and Visualization Sciences (CDVS) Workshop Series",
+         co_sponsors = "SSRI, Research Computing",
+         duration_in_hours = (workshop_duration_minutes / 60),
+         title = paste0("CDVS Workshop: ", title),
+         contact = "Joel Herndon"
+         ) %>% 
+  mutate(start_time = format(workshop_begins, "%H:%M")) %>% 
+  mutate(end_time = format(workshop_ends, "%H:%M")) %>% 
+  select(title, presenter, series_title, 
+         co_sponsors, 
+         date, start_time, 
+         end_time, duration_in_hours, 
+         description,
+         registration_link, 
+         location, contact
+         ) %>% 
+  mutate(date = format(date, "%Y-%m-%d")) 
+
+
+duke_events
+```
+
+
+
+### Write Duke Events CSV file
+
+1. Creates "output" directory if it doesn not already exist (or leave's it alone if it does)
+1. Write's a duke_events.csv report file in the "output" directory
+
+```{r}
+dir_create("output")
+write_csv(duke_events, 
+          here("output", glue(
+            glue(
+              "duke_events_from_dvs_workshops",
+              format(Sys.Date(), "%Y-%m-%d"),
+              .sep = "_"
+            ),
+            "csv",
+            .sep = "."
+          )))
+```

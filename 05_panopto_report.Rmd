@@ -1,0 +1,82 @@
+---
+title: "generate the Panopto report"
+output: html_notebook
+---
+
+
+Send this report to Paul.
+
+This Panopto report pads the start and end times by 15 minutes at each end of the workshop.  Secondarily this report selects the specific fields important for the Panopto Report.
+
+```{r}
+library(tidyverse)
+library(lubridate)
+library(here)
+library(fs)
+library(glue)
+```
+
+```{r}
+my_df <- read_csv("output/workshops.csv")
+```
+
+```{r}
+glimpse(my_df)
+```
+
+
+
+## Panopto Report
+
+Send this report to Paul.
+
+This Panopto report pads the start and end times by 15 minutes at each end of the workshop.  Secondarily this report selects the specific fields important for the Panopto Report.
+
+```{r}
+DVS_workshop_schedule <- my_df %>% 
+    
+```
+
+
+
+```{r}
+panopto_report <- DVS_workshop_schedule %>%
+    filter(location != "Online") %>% 
+    mutate(folder = "DVS Internal") %>% 
+    mutate(start_time = workshop_begins - minutes(15)) %>% 
+    mutate(start_time = format(start_time, "%I:%M %p"))  %>% 
+    mutate(end_time = workshop_ends + minutes(15)) %>% 
+    mutate(end_time = format(end_time, "%I:%M %p")) %>% 
+    mutate(date = format(date, "%Y-%m-%d")) %>% 
+    mutate(presenter = str_replace_all(
+        presenter, "[Ç]", "C") # Anglicize Çetinkaya to Cetinkaya 
+    ) %>%  
+    select(date, title, location, 
+           start_time, end_time, 
+           presenter, folder)
+
+panopto_report <- panopto_report %>% 
+  filter(!str_detect(title, "R Open Lab"))
+panopto_report
+```
+
+
+### Write Panopto CSV file
+
+1. Creates "output" directory if it does not already exist (or leave's it alone if it does)
+1. Write's a panopto.csv report file in the "output" directory
+
+```{r}
+dir_create("output")
+write_csv(panopto_report,
+          here("output", glue(
+            glue(
+              "panopto_report_of_dvs_workshops",
+              format(Sys.Date(), "%Y-%m-%d"),
+              .sep = "_"
+            ),
+            "csv",
+            .sep = "."
+          )))
+```
+
