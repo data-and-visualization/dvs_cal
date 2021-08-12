@@ -8,7 +8,6 @@ Move all the development reports to a report directory
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(fs)
-library(here)
 ```
 
 ```{r}
@@ -16,4 +15,6 @@ whatfile <- dir_ls(glob = "*nb.html")
 fs::dir_create("reports")
 fs::file_move(whatfile, "reports")
 ```
+
+
 
