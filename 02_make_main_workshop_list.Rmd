@@ -69,9 +69,9 @@ There are extraneous leading single apostrophes showing up in the uploaded data 
 
 ```
 {r eval=FALSE, include=FALSE}
-# googlesheets4::gs4_create("Master Workshop list for Semester", sheets = list(sname = my_df))
+# googlesheets4::gs4_create("Main Workshop list for Semester", sheets = list(sname = my_df))
 
-googlesheets4::gs4_create("Master Workshop list for Semester",
+googlesheets4::gs4_create("Main Workshop list for Semester",
                           sheets = list(Sheet1 = for_goog_df),
                           timeZone = "America/New_York")
 ```
