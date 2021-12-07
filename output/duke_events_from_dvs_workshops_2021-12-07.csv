@@ -1,0 +1,207 @@
+title,presenter,series_title,co_sponsors,date,start_time,end_time,duration_in_hours,description,registration_link,location,contact
+CDVS Workshop: Ethics of Data Management and Sharing,Jen Darragh & Sophia Lafferty-Hess,Center for Data and Visualization Sciences (CDVS) Workshop Series,"SSRI, Research Computing",2022-01-18,15:00,17:00,2,"[Online] This workshop will explore the many different ethical issues that can arise with data management and sharing and strategies to address those issues. Topics covered will include a framework for analyzing ethical cases, the use of secondary data in research, proper consent procedures, de-identification, and the impact of laws on data sharing. We will also explore the application of diversity and equity principles to open science and data sharing. For instance, how can researchers ethically collect, handle, and share data from certain communities, such as Indigenous People? This workshop will contain both lecture and small group discussion where participants will engage with key ethical concepts and apply those concepts to a case-study.
+
+This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
+
+Data Management",https://duke.libcal.com/event/8574484,Online,Joel Herndon
+"CDVS Workshop: R for data science: getting started, EDA, data wrangling",John Little,Center for Data and Visualization Sciences (CDVS) Workshop Series,"SSRI, Research Computing",2022-01-20,15:00,17:00,2,"[Online] Part of the Rfun series. R and the Tidyverse are a data-first coding language that enables reproducible workflows. In this two-part workshop, you’ll learn the fundamentals of R, everything you need to know to quickly get started. You’ll learn how to access and install RStudio, how to wrangle data for analysis, gain a brief introduction to visualization, practice Exploratory Data Analysis (EDA).
+
+Part 1 has no prerequisites and no prior experience is necessary. By the end of part 1 you will import data, edit and save scripts, subset data, use projects to organize your work, and develop self-help techniques. 
+
+This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop. We will use the flipped classroom model. Quickstart videos will be distributed one week prior to the event.
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at anytime prior to the conclusion of the workshop.
+
+Data Science",https://duke.libcal.com/event/8575083,Online,Joel Herndon
+"CDVS Workshop: R for data science: visualization, pivot, join, regression",John Little,Center for Data and Visualization Sciences (CDVS) Workshop Series,"SSRI, Research Computing",2022-01-21,15:00,17:00,2,"[Online] Part of the Rfun series. R and the Tidyverse are a data-first coding language that enables reproducible workflows. In this two-part workshop, you’ll learn the fundamentals of R, everything you need to know to quickly get started. You’ll learn about visualization using ggplot2, how to make interactive charts for use in dashboards, how to reshape and merge data, and be introduced to models.
+
+Part 2 requires the familiarity of part 1.  By the end of part 2 you will have a familiarity with the grammar of graphics, be introduced to interactivity techniques, be able to invoke data joins and pivots, and gain an introduction to linear regression.
+
+This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop. We will use the flipped classroom model.  Quickstart videos will be distributed one week prior to the event.
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at anytime prior to the conclusion of the workshop.
+
+Data Science",https://duke.libcal.com/event/8575086,Online,Joel Herndon
+CDVS Workshop: Effective Data Visualization,Eric Monson,Center for Data and Visualization Sciences (CDVS) Workshop Series,"SSRI, Research Computing",2022-01-24,22:00,23:30,1.5,"[Online] Visualization is a powerful way to reveal patterns in data, attract attention, and get your message across to an audience quickly and clearly. But, there are many steps in that journey from exploration to information to influence, and many choices to make when putting it all together to tell your story. I will cover some basic guidelines for effective visualization, point out a few common pitfalls to avoid, and run through a critique and iterations of an existing visualization to help you start seeing better choices beyond the program defaults.
+
+This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
+
+Data Visualization",https://duke.libcal.com/event/8579920,Online,Joel Herndon
+CDVS Workshop: Storytelling with Maps: Intro to ArcGIS StoryMaps,Drew Keener,Center for Data and Visualization Sciences (CDVS) Workshop Series,"SSRI, Research Computing",2022-01-26,18:00,20:00,2,"[Online] This workshop will help you get started telling stories with maps on the ArcGIS StoryMaps platform. This easy-to-use web application combines interactive maps with narrative text, images, and videos to provide a powerful communication tool for any project with a spatial component. We will explore the capabilities of the platform, share best practices for designing effective stories, and guide participants through the process of creating their own story maps.
+
+No previous experience with GIS is necessary.
+
+This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
+
+Mapping & GIS",https://duke.libcal.com/event/8579978,Online,Joel Herndon
+CDVS Workshop: Meeting Data Management Plan Requirements,Jen Darragh & Sophia Lafferty-Hess & Office of Scientific Integrity,Center for Data and Visualization Sciences (CDVS) Workshop Series,"SSRI, Research Computing",2022-01-28,15:00,17:00,2,"[Online] There are many federal and private funders who require data management plans as part of a grant application, including NIH who recently released a new Data Management and Sharing Policy that takes effect in 2023 and will apply to all grants. This workshop will cover the components of a data management plan, what makes a strong plan and how to adhere to it, and where to find guidance, tools, resources, and assistance for building funder-based plans. We will also discuss how to make data management plans actionable and meaningful living documents to support research integrity, reproducibility, reuse, and verification of results. This workshop is a collaboration between Duke University Libraries and the Office of Scientific Integrity. 
+
+This workshop is eligible for the 200-level faculty and staff RCR. 
+
+This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
+
+Data Management",https://duke.libcal.com/event/8574496,Online,Joel Herndon
+CDVS Workshop: Geospatial Data in R: Mapping,Drew Keener,Center for Data and Visualization Sciences (CDVS) Workshop Series,"SSRI, Research Computing",2022-01-31,18:00,20:00,2,"[Online] This workshop introduces the use of the R language for producing maps. We will demonstrate the advantages of a code-drive approach such as R for visualizing geospatial data. Participants will gain the skills to quickly and efficiently create a variety of map types for a website, presentation, or publication. In addition to working on hands-on coding exercises, we will also review practical guidance on designing effective maps.
+
+This workshop is a companion to Geospatial Data in R: Processing and Analysis, which focuses on data analysis more than visualization.
+
+Attendees will need basic familiarity with R and RStudio to follow along with the exercises. Knowledge of tidyverse packages such as ggplot2 and dplyr is also helpful.
+
+This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
+
+Mapping & GIS, Data Science",https://duke.libcal.com/event/8579950,Online,Joel Herndon
+CDVS Workshop: Intro to QGIS,Mark Thomas,Center for Data and Visualization Sciences (CDVS) Workshop Series,"SSRI, Research Computing",2022-02-02,15:00,17:00,2,"[Online] Are you looking for an open source option for GIS to make maps or to analyze geospatial data? In this workshop we will demonstrate how to import and analyze data in QGIS and discuss the benefits of using QGIS over other GIS software. In the process, we'll go over some general GIS concepts such as layers, types of GIS files, and projections, with an emphasis on feature (vector) layers. This is an introductory class, and no prior GIS experience is needed.
+
+Attendees should have installed QGIS beforehand.
+
+Go to the QGIS Downloads webpage.
+	Download and install the QGIS Installer for either the latest version or the latest long-term (most stable) release, either 64-bit or 32-bit.  Versions for several platforms are available.
+This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at anytime prior to the conclusion of the workshop.
+
+Mapping & GIS",https://duke.libcal.com/event/8579131,Online,Joel Herndon
+CDVS Workshop: Intro to ArcGIS Pro,Mark Thomas,Center for Data and Visualization Sciences (CDVS) Workshop Series,"SSRI, Research Computing",2022-02-04,15:00,17:00,2,"[Online] ArcGIS Pro is the newer alternative interface to the tried-and-true ArcGIS Desktop software (ArcMap), with essentially the same functions, but with more of a MS-Office feel. As a native 64-bit program, it also has superior performance. There are a few nice feature enhancements such as multiple layouts in a single project, and it's more fully integrated with ArcGIS Online (see schedule for workshops on ArcGIS Online or on StoryMaps).
+
+ArcGIS Pro can help you analyze or visualize digital data that has a locational component, and we'll discuss starting points for obtaining data. Examples will focus on social science data and feature (vector) layers, but attendees are encouraged to ask questions regarding their own needs and will be welcome to make one-on-one appointments later for more focused instruction. This is an introductory class, and it's not necessary to be familiar with GIS software beforehand.
+
+Attendees should have access to ArcGIS Pro. These are the options for Duke affiliates:
+
+OIT Download: Current Duke University students, faculty, and staff can get a free copy to install on their own Windows computer, or a Mac with virtual machine software installed (e.g., VMware or Parallels).
+	Virtual Computing Manager (VCM) from Duke's Office of Information Technology (OIT) allows Duke users to check out a virtual machine with ArcGIS installed and connect via a remote connection.
+This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at anytime prior to the conclusion of the workshop.
+
+Mapping & GIS",https://duke.libcal.com/event/8579130,Online,Joel Herndon
+CDVS Workshop: Geospatial Data in R: Processing and Analysis,Drew Keener,Center for Data and Visualization Sciences (CDVS) Workshop Series,"SSRI, Research Computing",2022-02-07,18:00,20:00,2,"[Online] The R language has became a popular option for working with geospatial data. Compared to traditional GIS software, the code-driven approach of R can be more reproducible and efficient. This workshop give participants the skills to perform geospatial workflows entirely within R. We will discuss how different types of geospatial data work in R, walk through examples of data operations, and explore common analysis methods for geospatial data. 
+
+This workshop is a companion to Geospatial Data in R: Mapping, which focuses on visualization more than analysis.
+
+Attendees will need basic familiarity with R and RStudio to follow along with the exercises. Knowledge of tidyverse packages such as ggplot2 and dplyr is also helpful.
+
+This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
+
+Mapping & GIS, Data Science",https://duke.libcal.com/event/8579964,Online,Joel Herndon
+CDVS Workshop: Adobe Illustrator for Diagrams,Eric Monson,Center for Data and Visualization Sciences (CDVS) Workshop Series,"SSRI, Research Computing",2022-02-11,15:00,17:00,2,"[Online] In this workshop, you will learn the basics of using Adobe Illustrator, the professional standard in vector graphics software for creating diagrams and infographics. Many people avoid using it because of its steep learning curve, but you will see that it is quite easy to combine simple shapes to create interesting and clear diagrams, and to give all your work that professional edge. There are no prerequisites.
+
+If you are going to work along with the exercises, which is highly recommended, you will need to have a copy of Adobe Illustrator. For Duke students it is free – just download and install the Adobe Creative Cloud from Duke OIT Software. For Duke faculty and staff there is unfortunately a $150 yearly fee for the license.
+
+This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
+
+Data Visualization",https://duke.libcal.com/event/8579972,Online,Joel Herndon
+"CDVS Workshop: R for data science: getting started, EDA, data wrangling",John Little,Center for Data and Visualization Sciences (CDVS) Workshop Series,"SSRI, Research Computing",2022-02-15,15:00,17:00,2,"[Online] Part of the Rfun series. R and the Tidyverse are a data-first coding language that enables reproducible workflows. In this two-part workshop, you’ll learn the fundamentals of R, everything you need to know to quickly get started. You’ll learn how to access and install RStudio, how to wrangle data for analysis, gain a brief introduction to visualization, practice Exploratory Data Analysis (EDA).
+
+Part 1 has no prerequisites and no prior experience is necessary. By the end of part 1 you will import data, edit and save scripts, subset data, use projects to organize your work, and develop self-help techniques. 
+
+This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop. We will use the flipped classroom model. Quickstart videos will be distributed one week prior to the event.
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at anytime prior to the conclusion of the workshop.
+
+Data Science",https://duke.libcal.com/event/8580099,Online,Joel Herndon
+"CDVS Workshop: R for data science: visualization, pivot, join, regression",John Little,Center for Data and Visualization Sciences (CDVS) Workshop Series,"SSRI, Research Computing",2022-02-16,15:00,17:00,2,"[Online] Part of the Rfun series. R and the Tidyverse are a data-first coding language that enables reproducible workflows. In this two-part workshop, you’ll learn the fundamentals of R, everything you need to know to quickly get started. You’ll learn about visualization using ggplot2, how to make interactive charts for use in dashboards, how to reshape and merge data, and be introduced to models.
+
+Part 2 requires the familiarity of part 1.  By the end of part 2 you will have a familiarity with the grammar of graphics, be introduced to interactivity techniques, be able to invoke data joins and pivots, and gain an introduction to linear regression.
+
+This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop. We will use the flipped classroom model.  Quickstart videos will be distributed one week prior to the event.
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at anytime prior to the conclusion of the workshop.
+
+Data Science",https://duke.libcal.com/event/8580100,Online,Joel Herndon
+CDVS Workshop: An Introduction to Reproducible Research Practices,Sophia Lafferty-Hess & John Little,Center for Data and Visualization Sciences (CDVS) Workshop Series,"SSRI, Research Computing",2022-02-22,15:00,17:00,2,"[Online] The importance of reproducibility, replication, and transparency in the research endeavor is increasingly discussed in academia. This workshop will introduce the concept of “reproducibility” and foundational strategies that can increase the reproducibility of your work particularly related to organization, documentation, literate coding techniques, version control, and archiving data and code for future access and use. We will also present a protocol, the TIER protocol, as a tool that graduate students or others can use that are first approaching reproducibility. This workshop will primarily be tool agnostic and instead focusing on the high level practices that can be applied across disciplines and workflows with representative examples. A follow-up workshop “Designing a Reproducible Workflow with R and Git” will present a specific workflow in practice.
+
+This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
+
+Data Science, Data Management",https://duke.libcal.com/event/8574511,Online,Joel Herndon
+CDVS Workshop: Mapping in Tableau,Drew Keener,Center for Data and Visualization Sciences (CDVS) Workshop Series,"SSRI, Research Computing",2022-02-23,15:30,17:00,1.5,"[Online] Tableau is a software package that is popular for creating striking visualizations, such as charts and graphs. It also has an increasing number of capabilities to create maps. In this workshop, will introduce some of the mapping features in Tableau. Participants will learn how to create several types of maps from geospatial datasets and tabular data that include locational values, such as place names or coordinates. We will also discuss best practices for designing effective maps.
+
+To maximize the amount of hands-on time working with Tableau, participants are expected to watch recorded instruction that we will share prior to the workshop. During the workshop time we will work together on a few assignments to practice the materiel covered in the tutorial video. This work time is designed to give you a chance to try to use Tableau Public or Desktop to create interactive maps, along with others at a similar level, in an environment where you can ask questions live.
+
+Duke students at are eligible for a free one-year license to activate Tableau Desktop. Faculty and staff may also request a free license to use for teaching and non-commercial academic research. Be aware that it can take a few days to receive your academic license. A free Public Edition is also available to everyone. Please contact the instructor before the workshop if you have any issues installing Tableau. 
+
+This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at anytime prior to the conclusion of the workshop.
+
+Mapping & GIS, Data Visualization",https://duke.libcal.com/event/8580044,Online,Joel Herndon
+CDVS Workshop: Data Management for Humanists,Jen Darragh & Sophia Lafferty-Hess & Liz Milewicz & Lee Sorensen,Center for Data and Visualization Sciences (CDVS) Workshop Series,"SSRI, Research Computing",2022-03-03,15:00,17:00,2,"[Online] Humanists work with various media, content and materials (sources) as part of their research. These sources can be considered data. This workshop will introduce data management practices for humanities scholars to consider and apply throughout the research lifecycle. Good data management practices pertaining to planning, organization, documentation, storage and backup, sharing, citation, and preservation will be presented through a humanities lens with discipline-based, concrete examples. While general good data management practices are relevant across disciplines, participants working specifically within the humanities are the intended audience for this workshop.
+
+This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
+
+Data Management",https://duke.libcal.com/event/8574603,Online,Joel Herndon
+CDVS Workshop: Meeting Data Management Plan Requirements,Jen Darragh & Sophia Lafferty-Hess & Office of Scientific Integrity,Center for Data and Visualization Sciences (CDVS) Workshop Series,"SSRI, Research Computing",2022-03-16,17:00,19:00,2,"[Online] There are many federal and private funders who require data management plans as part of a grant application, including NIH who recently released a new Data Management and Sharing Policy that takes effect in 2023 and will apply to all grants. This workshop will cover the components of a data management plan, what makes a strong plan and how to adhere to it, and where to find guidance, tools, resources, and assistance for building funder-based plans. We will also discuss how to make data management plans actionable and meaningful living documents to support research integrity, reproducibility, reuse, and verification of results. This workshop is a collaboration of Duke University Libraries and the Office of Scientific Integrity. 
+
+This workshop is eligible for the 200-level faculty and staff RCR. 
+
+This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
+
+Data Management",https://duke.libcal.com/event/8574515,Online,Joel Herndon
+CDVS Workshop: Effective Academic Posters,Eric Monson,Center for Data and Visualization Sciences (CDVS) Workshop Series,"SSRI, Research Computing",2022-03-22,21:00,22:30,1.5,"[Online] Poster sessions are an incredible opportunity to share our work with a broader audience, get feedback, and network with our peers, as well as potential employers, funders and collaborators. Our careers often depend on performing well in these exciting and often chaotic venues, but few of us are trained in graphic design and visual storytelling! In this talk, I will present some principles for creating an effective academic poster, and introduce you to a group critique process that should help you tell your story more clearly and stand out from the crowd.
+
+You don't need any software installed for this workshop – it is a talk with an interactive portion at the end.
+
+This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at anytime prior to the conclusion of the workshop.
+
+Data Visualization",https://duke.libcal.com/event/8579958,Online,Joel Herndon
+CDVS Workshop: Python for Data Science: Pandas 101,Eric Monson,Center for Data and Visualization Sciences (CDVS) Workshop Series,"SSRI, Research Computing",2022-04-05,14:00,16:00,2,"[Online] Python can be a great option for exploration, analysis and visualization of tabular data, such as spreadsheets and CSV files, if you know which tools to use and how to get started. This workshop will take you through some practical examples of using Python and specifically the Pandas module to load data from files, access that data, and start visualizing it with the Pandas built-in plotting functions. You will also get some experience working in JupyterLab, the flexible programming environment which contain Jupyter Notebooks, a file browser, and more.
+
+Note: This is an introductory workshop on the Pandas module, but you’ll probably be more comfortable following along if you have at least a little bit of experience using the Python programming language, since I won’t be spending time on the language itself. (Feel free to sign up no matter what your experience level, but past students with no Python or programming experience have found it too confusing to be useful.)
+
+Anaconda Python distribution (Individual Edition): https://www.anaconda.com/products/individual
+
+I strongly recommend that you install the Anaconda Python Distribution to use in class. In principle, if you have something above Python 3.7 or so, plus all the necessary modules, everything should work fine. But, the Anaconda Distribution is packaged nicely, can be installed without admin privileges, and comes with everything you’ll need. If you have another version of Python already installed and you’re going to install Anaconda, it’s best to uninstall the other version first. It can get to be a mess if you have multiple versions of Python installed on one machine. 
+
+Go to the link above, hit Download, and choose the version for your operating system. I would recommend to just install for “yourself”, not for all users of the machine, since that way it will install everything in your Users/username folder and doesn’t require admin privileges. 
+
+If you’re on Mac and aren’t comfortable with shell scripts on the command line, choose the Graphical Installer. 
+
+On Windows, I would choose the 64-bit installer, unless you know you’re still running a 32-bit version of Windows on an older machine. 
+
+If you’re sticking with your non-Anaconda version of Python, make sure you have JupyterLab, Pandas, and all of their respective dependencies installed.
+
+Please try to launch Python and JupyterLab before class to make sure they’re working! JupyterLab can be started from the Anaconda Navigator application, or from the Anaconda Prompt (Windows) or a Terminal (Mac) by typing (without quotes) “jupyter lab” and hitting return. From a Python notebook or an interactive Python prompt, you can test out the main modules you’ll need by typing this and executing the code cell:
+
+import pandas as pd
+
+This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
+
+Data Visualization, Data Science",https://duke.libcal.com/event/8602783,Online,Joel Herndon
+CDVS Workshop: Designing a Reproducible Workflow with R and Git,Sophia Lafferty-Hess & John Little,Center for Data and Visualization Sciences (CDVS) Workshop Series,"SSRI, Research Computing",2022-04-07,17:00,19:00,2,"[Online] Part of the Rfun series. Designing a workflow that enables reproducibility can be complex at times but having the right suite of tools and connecting them effectively is an important step. This workshop will present a potential end-to-end reproducible workflow using a git, RStudio, Binder, and Zenodo. Configuration for the hands-on portion of the workshop will be sent to participants one week before the workshop. Participants are expected to have their computer already configured for the workshop. 
+
+Prerequisites:
+
+
+	Introductory familiarity with R (consider attending an Introduction to R workshop or watch a prerecorded workshop)
+	
+	
+	A GitHub account
+	
+This workshop will be held online. A zoom link will be sent to all registered participants prior to the workshop.
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
+
+Data Science, Data Management",https://duke.libcal.com/event/8574514,Online,Joel Herndon
