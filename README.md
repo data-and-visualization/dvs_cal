@@ -18,11 +18,13 @@ This repository was **forked** from https://github.com/herndonj/dvs_cal
 * **06_duke_devents_report.Rmd** - generate a report for Sophia to review and send to the Duke Events Calendar people
 * **01_gather_and_wrangle.R** - havest LibCal API data to make a data_frame of all the workshops as reported at the beginning of the semester.
 
-##Changes in Registration Form
+## Changes in Registration Form
 
 ### 2018-01-22
 
 Question 3 "Are you from Duke University, Duke Medical Center, DCRI, or another Duke group" changed to "Are you affiliated with Duke University, Duke Medical Center, DCRI, or another Duke group?"
 
 "Attendance" field added to the asssement spreadsheet (not present in the interface that registrants see.)
+
+<< analysis_dvs_cal >>
 
