@@ -90,7 +90,7 @@ workshop_list_to_upload_into_GoogleDrive <- my_df %>%
 
 walk(
   workshop_list_to_upload_into_GoogleDrive,
-  ~ gs4_create(.$`Workshop Name`, sheets = list(attendance = .))
+  ~ googlesheets4::gs4_create(.$`Workshop Name`, sheets = list(attendance = .))
 )
 ```
 
