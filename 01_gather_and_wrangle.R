@@ -37,7 +37,8 @@ my_df <- tibble(by_workshop) %>%
     mutate(X2 = if_else(X2 == "n/a", "Online", X2)) %>%         # this line
     tidyr::pivot_wider(names_from = X1, values_from = X2, values_fn = list) %>%   # `values_fn = list` suppresses warnings
     janitor::clean_names() %>% 
-    select(-c("campus", "categories")) %>% #select(-categories) %>% 
+    # select(-c("campus", "categories")) %>% 
+    select(!c(contains("campus"), categories)) %>% 
     unnest(cols = everything())
 
 # Insert workshop URL into the data frame
