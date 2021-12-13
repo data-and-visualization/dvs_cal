@@ -16,6 +16,7 @@ output: html_notebook
 ## library packages
 
 ```{r message=FALSE, warning=FALSE}
+Sys.setenv(TZ="America/New_York")
 library(fs)
 ```
 
