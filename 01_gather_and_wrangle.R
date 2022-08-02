@@ -31,15 +31,46 @@ by_workshop <- html_nodes(dvs_cal, ".cat25858") %>%
     html_table()
 
 # Data come back in long tidy format.  Convert to wide.  lines 46 and 47 (ish) take into account that the API delivers inconsistent information based on workshop type.  i.e. online workshops report less data than in-person workshops
-my_df <- tibble(by_workshop) %>% 
-    tidyr::unnest(cols = everything()) %>% 
+my_df <- tibble(by_workshop) %>%
+    tidyr::unnest(cols = everything()) %>%
     mutate(X1 = if_else(X2 == "n/a", "Location:", X1)) %>%      # this line
     mutate(X2 = if_else(X2 == "n/a", "Online", X2)) %>%         # this line
     tidyr::pivot_wider(names_from = X1, values_from = X2, values_fn = list) %>%   # `values_fn = list` suppresses warnings
-    janitor::clean_names() %>% 
-    # select(-c("campus", "categories")) %>% 
-    select(!c(contains("campus"), categories)) %>% 
+    janitor::clean_names() %>%
+    # select(-c("campus", "categories")) %>%
+    select(!c(contains("campus"), categories)) %>%
     unnest(cols = everything())
+
+## This was a workaround because row 22 was a HYBRID workshop!!!
+# my_df <- bind_rows(
+#     tibble(by_workshop[1:20]) %>% 
+#         tidyr::unnest(cols = everything()) %>% 
+#         mutate(X1 = if_else(X2 == "n/a", "Location:", X1)) %>%      # this line
+#         mutate(X2 = if_else(X2 == "n/a", "Online", X2)) %>%         # this line
+#         tidyr::pivot_wider(names_from = X1, values_from = X2, values_fn = list) %>%   # `values_fn = list` suppresses warnings
+#         janitor::clean_names() %>% 
+#         select(!c(contains("campus"), categories)) %>% 
+#         unnest(cols = everything())
+#     ,
+#     tibble(by_workshop[21]) %>% 
+#         tidyr::unnest(cols = everything()) %>% 
+#         mutate(X1 = if_else(X2 == "n/a", "Location:", X1)) %>%      # this line
+#         mutate(X2 = if_else(X2 == "n/a", "Online", X2)) %>%         # this line
+#         tidyr::pivot_wider(names_from = X1, values_from = X2, values_fn = list) %>%   # `values_fn = list` suppresses warnings
+#         janitor::clean_names() %>% 
+#         select(!c(contains("campus"), categories)) %>% 
+#         unnest(cols = everything()) |> 
+#         filter(location != "Online")
+#     ,
+#     tibble(by_workshop[22]) %>% 
+#         tidyr::unnest(cols = everything()) %>% 
+#         mutate(X1 = if_else(X2 == "n/a", "Location:", X1)) %>%      # this line
+#         mutate(X2 = if_else(X2 == "n/a", "Online", X2)) %>%         # this line
+#         tidyr::pivot_wider(names_from = X1, values_from = X2, values_fn = list) %>%   # `values_fn = list` suppresses warnings
+#         janitor::clean_names() %>% 
+#         select(!c(contains("campus"), categories)) %>% 
+#         unnest(cols = everything())
+# ) 
 
 # Insert workshop URL into the data frame
 my_df$registration <- registration_list
