@@ -2,7 +2,6 @@
 title: "Create CSV file of Future Workshops"
 subtitle: "Data are from the LibCal API, parsed by rvest and dplyr"
 date: "`r Sys.Date()`"
-output: html_notebook
 ---
 
 1. Run this at the beginning of the semester to generate the main workshop list
