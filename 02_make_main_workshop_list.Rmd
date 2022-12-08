@@ -15,6 +15,7 @@ date: "`r Sys.Date()`"
 ## library packages
 
 ```{r message=FALSE, warning=FALSE}
+Sys.setenv(TZ="America/New_York")
 library(fs)
 ```
 
@@ -31,7 +32,6 @@ this next CODE CHUNK is DISABLED, but designed to rerun the harvest script
 source("01_gather_and_wrangle.R", local = knitr::knit_global())
 # or sys.source("your-script.R", envir = knitr::knit_global())
 ```
-
 
 ## Wrangle Data
 
@@ -62,16 +62,16 @@ write_csv(for_goog_flyer_df, "output/forgoog_flyer.csv")
 
 ## For Flyer -- Upload manully to Google Sheets.  
 
-Manually upload `for_googflyer.csv` to:  `Google Drive > CDVS > Services > Workshops > [2021 Fall] > Planning`
+```{r eval=FALSE, include=FALSE}
+# googlesheets4::gs4_create("Main Workshop list for Semester", sheets = list(sname = my_df))
 
-There are extraneous leading single apostrophes showing up in the uploaded data (i.e. on Google Drive, in the Sheet.)  For now, instead of `gs4_create()`, upload the forgoog_flyer.csv file **manually** to Google Drive, then open the csv on Google Drive, and then "Open With" as a Sheet.
-
-```
-{r eval=FALSE, include=FALSE}
-# googlesheets4::gs4_create("Master Workshop list for Semester", sheets = list(sname = my_df))
-
-googlesheets4::gs4_create("Master Workshop list for Semester",
-                          sheets = list(Sheet1 = for_goog_df),
+googlesheets4::gs4_create("Main Workshop list for Semester",
+                          sheets = list(Sheet1 = for_goog_flyer_df),
                           timeZone = "America/New_York")
 ```
 
+### above chunk may have to be be run manually.  It will upload to your google drive home directory (Check "recent" on google drive).  Then move to the proper spot.  **BE SURE TO CHECK THE DATES**.  Google drive has a tendency to fock up the dates and impose GMT instead of EST!!   I noticed this when mnaully uploading.  See next...
+
+### Manually upload `for_googflyer.csv` to:  `Google Drive > CDVS > Services > Workshops > [2021 Fall] > Planning`
+
+By spring of 2022 this problem had resolved but in the fall of 2021 there were extraneous leading single apostrophes showing up in the uploaded data.  This was probably a bug with `library(googlesheets4)`. The manual work-around, instead of `gs4_create()`, was to upload the forgoog_flyer.csv file **manually** to Google Drive, then open the csv on Google Drive, and then "Open With" as a Sheet.  BUT, this allowed Google to force it's own GMT timezone.  So, you have to opea blank sheet (sheets.new), Then `import`, then be sure not to allow any automatic conversion of fields (this is an option in the later stages of the import.)

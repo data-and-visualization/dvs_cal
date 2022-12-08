@@ -33,7 +33,8 @@ Send this report to Paul.
 This Panopto report pads the start and end times by 15 minutes at each end of the workshop.  Secondarily this report selects the specific fields important for the Panopto Report.
 
 ```{r}
-DVS_workshop_schedule <- my_df %>% 
+my_df <- read_csv("output/workshops.csv")
+DVS_workshop_schedule <- my_df 
     
 ```
 
