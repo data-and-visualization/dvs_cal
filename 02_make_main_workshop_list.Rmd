@@ -17,6 +17,8 @@ date: "`r Sys.Date()`"
 ```{r message=FALSE, warning=FALSE}
 Sys.setenv(TZ="America/New_York")
 library(fs)
+library(tidyverse)
+library(lubridate)
 ```
 
 ## Get Data
@@ -36,13 +38,16 @@ source("01_gather_and_wrangle.R", local = knitr::knit_global())
 ## Wrangle Data
 
 ```{r}
-for_goog_flyer_df <- my_df %>% 
-    select_if(is.character) %>% 
-    select(workshop_id, date, day = day_flyer, title, presenter,  online_in_person = online_in_person_flyer,
-           time = time_flyer, workshop_begins = begins_display, workshop_ends = ends_display, 
-           workshop_duration_minutes, description, registration_link, location) 
+for_goog_flyer_df <- my_df %>%
+    # select(workshop_begins, where(is.character)) |> 
+    mutate(my_day = lubridate::wday(workshop_begins, label = TRUE, abbr = FALSE)) |> 
+    relocate(my_day) |> 
+    mutate(date_time = str_c(my_day, day_flyer, time, sep = " ")) |> 
+    mutate(date_time = str_remove(date_time, " \\w{3}(?=,)")) |> 
+    mutate(online_in_person_flyer     = str_glue("[{online_in_person_flyer    }]")) |> 
+    mutate(description = str_trim(str_remove_all(description, "\\[(Online|In-person)\\]"))) |> 
+    select(workshop_id, `Date(time)` = date_time, title, presenter,  format = online_in_person_flyer, registration_link, abstract = description) 
 ```
-
 
 
 ## Write output
@@ -70,8 +75,22 @@ googlesheets4::gs4_create("Main Workshop list for Semester",
                           timeZone = "America/New_York")
 ```
 
-### above chunk may have to be be run manually.  It will upload to your google drive home directory (Check "recent" on google drive).  Then move to the proper spot.  **BE SURE TO CHECK THE DATES**.  Google drive has a tendency to fock up the dates and impose GMT instead of EST!!   I noticed this when mnaully uploading.  See next...
+## Next steps
 
-### Manually upload `for_googflyer.csv` to:  `Google Drive > CDVS > Services > Workshops > [2021 Fall] > Planning`
+See "Manually upload"
 
+### above chunk 
+
+may have to be be run manually.  It will upload to your google drive home directory (Check "recent" on google drive).  Then move to the proper spot.  **BE SURE TO CHECK THE DATES**.  Google drive has a tendency to fock up the dates and impose GMT instead of EST!!   I noticed this when mnaully uploading.  See next...
+
+
+### Manually upload 
+
+1. `for_googflyer.csv` to:  `Google Drive > CDVS > Services > Workshops > [2021 Fall] > Planning`
+2. Then open the output/workshops.csv ; paste to notepad++ ; paste into columns A, B, and C of the `DVS_Workshops_summary_stats` file in Google Drive: from GD > CDVS > Workshops > _Assessment > longitudinal
+
+AND RENAME the google sheet - "DO NOT MODIFY"
+
+
+#### Note  
 By spring of 2022 this problem had resolved but in the fall of 2021 there were extraneous leading single apostrophes showing up in the uploaded data.  This was probably a bug with `library(googlesheets4)`. The manual work-around, instead of `gs4_create()`, was to upload the forgoog_flyer.csv file **manually** to Google Drive, then open the csv on Google Drive, and then "Open With" as a Sheet.  BUT, this allowed Google to force it's own GMT timezone.  So, you have to opea blank sheet (sheets.new), Then `import`, then be sure not to allow any automatic conversion of fields (this is an option in the later stages of the import.)

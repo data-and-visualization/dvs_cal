@@ -90,11 +90,13 @@ my_df <- my_df %>%
     mutate(duration = as.numeric(workshop_ends - workshop_begins) * 60) %>% 
     mutate(workshop_duration_minutes = as.character(duration)) %>% 
     # mutate(description = str_extract(description, ".*(?<=\\.)")) %>%            # take only the first paragraph
+    # mutate(description = str_remove(description, "^[Online] ")) |> 
     mutate(registration_link = str_extract(registration, ".*(?=\\?)")) %>% 
     mutate(date = date_format(workshop_begins, format = "%F")) %>%
     mutate(day = date_format(workshop_begins, format = "%a")) %>% 
     mutate(day_flyer = date_format(workshop_begins, format = "%a, %h %d")) %>% 
-    mutate(online_in_person_flyer = if_else(location == "Online", location, "In-Person"))
+    mutate(online_in_person_flyer = if_else(location == "Online", location, "In-Person")) |> 
+    arrange(workshop_begins, workshop_id)    
 
 
 

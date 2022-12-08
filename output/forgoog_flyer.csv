@@ -1,5 +1,5 @@
-workshop_id,date,day,title,presenter,online_in_person,time,workshop_begins,workshop_ends,workshop_duration_minutes,description,registration_link,location
-9974189,2023-01-17,"Tue, Jan 17",Tools for Data Management,Jen Darragh & Sophia Lafferty-Hess & John Little & Kelsey Smith,Online,01:00 pm - 03:00 pm,01:00 PM,03:00 PM,120,"[Online] This workshop will first introduce data management practices for researchers to consider and apply throughout the research lifecycle. Good data management practices pertaining to planning, organization, documentation, storage and backup, sharing, citation, and preservation will be presented using examples that span disciplines. The second hour of this workshop will offer a mini “tour” of research data management tools including GitHub, LabArchives, and OSF and provide a framework for considering how to assess data management tools for future adoption. 
+workshop_id,Date(time),title,presenter,format,registration_link,abstract
+9974189,"Tuesday, Jan 17 1:00pm - 3:00pm",Tools for Data Management,Jen Darragh & Sophia Lafferty-Hess & John Little & Kelsey Smith,[Online],https://duke.libcal.com/event/9974189,"This workshop will first introduce data management practices for researchers to consider and apply throughout the research lifecycle. Good data management practices pertaining to planning, organization, documentation, storage and backup, sharing, citation, and preservation will be presented using examples that span disciplines. The second hour of this workshop will offer a mini “tour” of research data management tools including GitHub, LabArchives, and OSF and provide a framework for considering how to assess data management tools for future adoption. 
 
 This workshop contains similar material to the previously offered “Research Data Management 101” workshop offered in previous semesters - participants who have attended this previous workshop should not attend.
 
@@ -7,8 +7,8 @@ This event is offered virtually. A zoom link will be sent via email to registere
 
 The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
 
-Data Management, Data Science",https://duke.libcal.com/event/9974189,Online
-9994067,2023-01-18,"Wed, Jan 18",Intro to ArcGIS Pro,Mark Thomas,Online,10:00 am - 12:00 pm,10:00 AM,12:00 PM,120,"[Online] ArcGIS Pro is the newer alternative interface to the tried-and-true ArcGIS Desktop software (ArcMap), with essentially the same functions, but with more of a MS-Office feel. As a native 64-bit program, it also has superior performance. There are a few nice feature enhancements such as multiple layouts in a single project, and it's more fully integrated with ArcGIS Online.
+Data Management, Data Science"
+9994067,"Wednesday, Jan 18 10:00am - 12:00pm",Intro to ArcGIS Pro,Mark Thomas,[Online],https://duke.libcal.com/event/9994067,"ArcGIS Pro is the newer alternative interface to the tried-and-true ArcGIS Desktop software (ArcMap), with essentially the same functions, but with more of a MS-Office feel. As a native 64-bit program, it also has superior performance. There are a few nice feature enhancements such as multiple layouts in a single project, and it's more fully integrated with ArcGIS Online.
 
 ArcGIS Pro can help you analyze or visualize digital data that has a locational component, and we'll discuss starting points for obtaining data. Examples will focus on social science data and feature (vector) layers, but attendees are encouraged to ask questions regarding their own needs and will be welcome to make one-on-one appointments later for more focused instruction. This is an introductory class, and it's not necessary to be familiar with GIS software beforehand.
 
@@ -22,8 +22,8 @@ This event is offered virtually. A zoom link will be sent via email to register
 
 The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at anytime prior to the conclusion of the workshop.
 
-Mapping & GIS",https://duke.libcal.com/event/9994067,Online
-9980184,2023-01-24,"Tue, Jan 24","R for data science: getting started, EDA, data wrangling",John Little,Online,10:00 am - 12:00 pm,10:00 AM,12:00 PM,120,"[Online] Part of the Rfun series. R and the Tidyverse are a data-first coding language that enables reproducible workflows. In this two-part workshop you’ll learn the quick-start fundamentals of R and the Tidyverse. You’ll learn how to access and install RStudio, how to wrangle data for analysis, gain a brief introduction to visualization, and practice Exploratory Data Analysis (EDA).
+Mapping & GIS"
+9980184,"Tuesday, Jan 24 10:00am - 12:00pm","R for data science: getting started, EDA, data wrangling",John Little,[Online],https://duke.libcal.com/event/9980184,"Part of the Rfun series. R and the Tidyverse are a data-first coding language that enables reproducible workflows. In this two-part workshop you’ll learn the quick-start fundamentals of R and the Tidyverse. You’ll learn how to access and install RStudio, how to wrangle data for analysis, gain a brief introduction to visualization, and practice Exploratory Data Analysis (EDA).
 
 Part 1 has no prerequisites and no prior experience is necessary. By the end of part 1 you will import data, edit and save scripts, subset data, use projects to organize your work, and develop self-help techniques. 
 
@@ -31,8 +31,8 @@ This event is offered virtually. A zoom link will be sent via email to registere
 
 The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at anytime prior to the conclusion of the workshop.
 
-Data Science",https://duke.libcal.com/event/9980184,Online
-9980204,2023-01-26,"Thu, Jan 26","R for data science: visualization, pivot, join, regression",John Little,Online,10:00 am - 12:00 pm,10:00 AM,12:00 PM,120,"[Online] Part of the Rfun series.  R and the Tidyverse are a data-first coding language that enables reproducible workflows. In this two-part workshop you’ll learn the quick-start fundamentals of R and the Tidyverse.  You’ll learn about visualization using ggplot2, how to make interactive charts for use in dashboards, how to reshape and merge data, and see a brief introduction to linear regression models.
+Data Science"
+9980204,"Thursday, Jan 26 10:00am - 12:00pm","R for data science: visualization, pivot, join, regression",John Little,[Online],https://duke.libcal.com/event/9980204,"Part of the Rfun series.  R and the Tidyverse are a data-first coding language that enables reproducible workflows. In this two-part workshop you’ll learn the quick-start fundamentals of R and the Tidyverse.  You’ll learn about visualization using ggplot2, how to make interactive charts for use in dashboards, how to reshape and merge data, and see a brief introduction to linear regression models.
 
 Part 2 requires the familiarity of part 1.  By the end of part 2 you will have a familiarity with the grammar of graphics, be introduced to interactivity techniques, be able to invoke data joins, and data pivots.
 
@@ -40,8 +40,8 @@ This event is offered virtually. A zoom link will be sent via email to registere
 
 The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at anytime prior to the conclusion of the workshop.
 
-Data Science",https://duke.libcal.com/event/9980204,Online
-9980207,2023-01-31,"Tue, Jan 31",R for data science: custom functions and iteration,John Little,Online,10:00 am - 11:30 am,10:00 AM,11:30 AM,90,"[Online] Part of the Rfun series. R and the Tidyverse are a data-first coding language that enables reproducible workflows. This Introduction to iteration and custom functions uses a case-study approach to iterating over rows in a data frame using the {purrr} package.  {purrr} is an efficient and easier alternative to writing FOR loops.
+Data Science"
+9980207,"Tuesday, Jan 31 10:00am - 11:30am",R for data science: custom functions and iteration,John Little,[Online],https://duke.libcal.com/event/9980207,"Part of the Rfun series. R and the Tidyverse are a data-first coding language that enables reproducible workflows. This Introduction to iteration and custom functions uses a case-study approach to iterating over rows in a data frame using the {purrr} package.  {purrr} is an efficient and easier alternative to writing FOR loops.
 
 Prerequisite:  familiarity with Tidyverse and ggplot (See Rfun quickStart).  This workshop will explore efficient alternatives to for-loops by leveraging custom functions and the purrr library functions, e.g. map().  With these skills you can organize data frames for iteration.  For example, when ingesting multiple CSV files or multiple Excel worksheets.  You will learn nesting techniques that foster iteration.  You'll be able to organize data frames that contain models, and visualizations. 
 
@@ -49,15 +49,15 @@ This event is offered virtually. A zoom link will be sent via email to registere
 
 The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at anytime prior to the conclusion of the workshop.
 
-Data Science",https://duke.libcal.com/event/9980207,Online
-9994118,2023-01-31,"Tue, Jan 31",Effective Data Visualization,Eric Monson,Online,05:00 pm - 06:30 pm,05:00 PM,06:30 PM,90,"[Online] Visualization is a powerful way to reveal patterns in data, attract attention, and get your message across to an audience quickly and clearly. But, there are many steps in that journey from exploration to information to influence, and many choices to make when putting it all together to tell your story. I will cover some basic guidelines for effective visualization, point out a few common pitfalls to avoid, and run through a critique and iterations of an existing visualization to help you start seeing better choices beyond the program defaults.
+Data Science"
+9994118,"Tuesday, Jan 31 5:00pm - 6:30pm",Effective Data Visualization,Eric Monson,[Online],https://duke.libcal.com/event/9994118,"Visualization is a powerful way to reveal patterns in data, attract attention, and get your message across to an audience quickly and clearly. But, there are many steps in that journey from exploration to information to influence, and many choices to make when putting it all together to tell your story. I will cover some basic guidelines for effective visualization, point out a few common pitfalls to avoid, and run through a critique and iterations of an existing visualization to help you start seeing better choices beyond the program defaults.
 
 This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
 
 The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
 
-Data Visualization",https://duke.libcal.com/event/9994118,Online
-9991452,2023-02-02,"Thu, Feb 02",Creating dashboards with R: flexdashboards and Shiny,Joel Herndon,In-Person,10:00 am - 12:00 pm,10:00 AM,12:00 PM,120,"[In-person] Part of the Rfun series. Flexdashboards and Shiny make it easy to transition from analytics to online dashbboards using R without having to learn HTML, CSS, and javascript. This workshop provides an overview of felxdashboards and the shiny framework to demonstrate the possibilties of creating dashboards in R.
+Data Visualization"
+9991452,"Thursday, Feb 02 10:00am - 12:00pm",Creating dashboards with R: flexdashboards and Shiny,Joel Herndon,[In-Person],https://duke.libcal.com/event/9991452,"Part of the Rfun series. Flexdashboards and Shiny make it easy to transition from analytics to online dashbboards using R without having to learn HTML, CSS, and javascript. This workshop provides an overview of felxdashboards and the shiny framework to demonstrate the possibilties of creating dashboards in R.
 
 Prerequisites: Experience using the R statistical language or CDVS's R for Data Science Series are helpful. All are welcome, but this workshop is not designed to provide training on using the analytics and visualization features in R.
 
@@ -65,22 +65,22 @@ Note: The Edge Workshop Room does not provide computers. If you would like to fo
 
 The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
 
-Data Visualization, Data Science, Mapping & GIS",https://duke.libcal.com/event/9991452,Bostock 127 (The Edge Workshop Room)
-9995947,2023-02-07,"Tue, Feb 07",Designing Thematic Maps,Drew Keener,Online,10:30 am - 12:00 pm,10:30 AM,12:00 PM,90,"[Online] Making maps is a creative rather than a purely technical process. Even if you can expertly use the latest and most advanced tools, you still have to make design decisions based on your specific data, audience, and goals. This workshop will provide practical techniques for visualizing data with effective, visually appealing maps. We will explore design principles by analyzing plenty of examples. No specific software experience or GIS knowledge is required.
+Data Visualization, Data Science, Mapping & GIS"
+9995947,"Tuesday, Feb 07 10:30am - 12:00pm",Designing Thematic Maps,Drew Keener,[Online],https://duke.libcal.com/event/9995947,"Making maps is a creative rather than a purely technical process. Even if you can expertly use the latest and most advanced tools, you still have to make design decisions based on your specific data, audience, and goals. This workshop will provide practical techniques for visualizing data with effective, visually appealing maps. We will explore design principles by analyzing plenty of examples. No specific software experience or GIS knowledge is required.
 
 This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
 
 The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
 
-Mapping & GIS, Data Visualization",https://duke.libcal.com/event/9995947,Online
-9974291,2023-02-14,"Tue, Feb 14",Preparing for Data Publishing: Standards and Disciplinary Repositories,Sophia Lafferty-Hess & Jen Darragh,Online,10:00 am - 12:00 pm,10:00 AM,12:00 PM,120,"[Online] Research data have value beyond their original purpose and by sharing or ""publishing"" your data you can support open science, reproducibility, and future innovation. This workshop will explore strategies and best practices for formally publishing your data in a data repository. Topics covered will include new modes of publishing in academia, the use of data and metadata standards to support interoperability and harmonization, an overview of repository options and key features, examples of disciplinary repositories, and data publishing methods to increase the impact of research projects and support the FAIR Guiding Principles (i.e., Findable, Accessible, Interoperable, and Reusable). Participants will also practice finding and assessing data repositories via a hands-on exercise. 
+Mapping & GIS, Data Visualization"
+9974291,"Tuesday, Feb 14 10:00am - 12:00pm",Preparing for Data Publishing: Standards and Disciplinary Repositories,Sophia Lafferty-Hess & Jen Darragh,[Online],https://duke.libcal.com/event/9974291,"Research data have value beyond their original purpose and by sharing or ""publishing"" your data you can support open science, reproducibility, and future innovation. This workshop will explore strategies and best practices for formally publishing your data in a data repository. Topics covered will include new modes of publishing in academia, the use of data and metadata standards to support interoperability and harmonization, an overview of repository options and key features, examples of disciplinary repositories, and data publishing methods to increase the impact of research projects and support the FAIR Guiding Principles (i.e., Findable, Accessible, Interoperable, and Reusable). Participants will also practice finding and assessing data repositories via a hands-on exercise. 
 
 This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
 
 The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
 
-Data Management",https://duke.libcal.com/event/9974291,Online
-9994068,2023-02-15,"Wed, Feb 15",Intro to QGIS,Mark Thomas,Online,10:00 am - 12:00 pm,10:00 AM,12:00 PM,120,"[Online] Are you looking for an open source option for GIS to make maps or to analyze geospatial data? In this workshop we will demonstrate how to import and analyze data in QGIS and discuss the benefits of using QGIS over other GIS software. It's free and available for multiple platforms, not just Windows as is ArcGIS. In the process, we'll go over some general GIS concepts such as layers, types of GIS files, and projections, with an emphasis on feature (vector) layers. This is an introductory class, and no prior GIS experience is needed.
+Data Management"
+9994068,"Wednesday, Feb 15 10:00am - 12:00pm",Intro to QGIS,Mark Thomas,[Online],https://duke.libcal.com/event/9994068,"Are you looking for an open source option for GIS to make maps or to analyze geospatial data? In this workshop we will demonstrate how to import and analyze data in QGIS and discuss the benefits of using QGIS over other GIS software. It's free and available for multiple platforms, not just Windows as is ArcGIS. In the process, we'll go over some general GIS concepts such as layers, types of GIS files, and projections, with an emphasis on feature (vector) layers. This is an introductory class, and no prior GIS experience is needed.
 
 Attendees should have installed QGIS beforehand.
 
@@ -90,8 +90,8 @@ This event is offered virtually. A zoom link will be sent via email to registere
 
 The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at anytime prior to the conclusion of the workshop.
 
-Mapping & GIS",https://duke.libcal.com/event/9994068,Online
-9974342,2023-02-20,"Mon, Feb 20",Meeting Data Management Plan Requirements,Jen Darragh & Sophia Lafferty-Hess & Office of Scientific Integrity,Online,01:00 pm - 03:00 pm,01:00 PM,03:00 PM,120,"[Online] There are many federal and private funders who require data management plans as part of a grant application, including NIH who recently implemented a new Data Management and Sharing Policy that went into effect on January 25, 2023. This workshop will cover the components of a data management plan, what makes a strong plan and how to adhere to it, and where to find guidance, tools, resources, and assistance for building funder-based plans. We will also discuss how to make data management plans actionable and meaningful living documents to support research integrity, reproducibility, reuse, and verification of results. This workshop is a collaboration of Duke University Libraries and the Office of Scientific Integrity. 
+Mapping & GIS"
+9974342,"Monday, Feb 20 1:00pm - 3:00pm",Meeting Data Management Plan Requirements,Jen Darragh & Sophia Lafferty-Hess & Office of Scientific Integrity,[Online],https://duke.libcal.com/event/9974342,"There are many federal and private funders who require data management plans as part of a grant application, including NIH who recently implemented a new Data Management and Sharing Policy that went into effect on January 25, 2023. This workshop will cover the components of a data management plan, what makes a strong plan and how to adhere to it, and where to find guidance, tools, resources, and assistance for building funder-based plans. We will also discuss how to make data management plans actionable and meaningful living documents to support research integrity, reproducibility, reuse, and verification of results. This workshop is a collaboration of Duke University Libraries and the Office of Scientific Integrity. 
 
 This workshop is eligible for the 200-level faculty and staff RCR. 
 
@@ -99,8 +99,8 @@ This event is offered virtually. A zoom link will be sent via email to registere
 
 The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
 
-Data Management",https://duke.libcal.com/event/9974342,Online
-9980425,2023-02-23,"Thu, Feb 23",Quarto: a first look,John Little,Online,10:00 am - 11:00 am,10:00 AM,11:00 AM,60,"[Online] Quarto! Is it an open-source app? Is it a workflow?  Is it a web hosting environment?  Fundamentally Quarto is an approach to reproducible workflows that are especially useful when reporting outputs derived from scientific and technical computation.
+Data Management"
+9980425,"Thursday, Feb 23 10:00am - 11:00am",Quarto: a first look,John Little,[Online],https://duke.libcal.com/event/9980425,"Quarto! Is it an open-source app? Is it a workflow?  Is it a web hosting environment?  Fundamentally Quarto is an approach to reproducible workflows that are especially useful when reporting outputs derived from scientific and technical computation.
 
 In this demonstration we will compose visual reports using computational notebooks.   Using an open-source visual editor we will compose text peppered with code-chunks.  Outputs can inlude articles, reports, websites, books, slide-decks, PDF, MS Word, ePub, etc. Quarto conveniently accommodates equations, figures, advanced layouts, citations, and more.  If you use Python, R, Julia, ObservableJS, Jupyter notebooks, or VS Code, Quarto is an efficient way to document and exectute your research while dynamically generating reports.  
 
@@ -110,8 +110,8 @@ This event is offered virtually. A zoom link will be sent via email to registere
 
 The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at anytime prior to the conclusion of the workshop.
 
-Data Science",https://duke.libcal.com/event/9980425,Online
-9977262,2023-02-23,"Thu, Feb 23",Geospatial Data in R: Mapping,Drew Keener,Online,01:00 pm - 03:00 pm,01:00 PM,03:00 PM,120,"[Online] This workshop introduces the use of the R language for producing maps. We will demonstrate the advantages of a code-drive approach such as R for visualizing geospatial data. Participants will gain the skills to quickly and efficiently create a variety of map types for a website, presentation, or publication. In addition to working on hands-on coding exercises, we will also review practical guidance on designing effective maps.
+Data Science"
+9977262,"Thursday, Feb 23 1:00pm - 3:00pm",Geospatial Data in R: Mapping,Drew Keener,[Online],https://duke.libcal.com/event/9977262,"This workshop introduces the use of the R language for producing maps. We will demonstrate the advantages of a code-drive approach such as R for visualizing geospatial data. Participants will gain the skills to quickly and efficiently create a variety of map types for a website, presentation, or publication. In addition to working on hands-on coding exercises, we will also review practical guidance on designing effective maps.
 
 Attendees will need basic familiarity with R and RStudio to follow along with the exercises. Knowledge of tidyverse packages such as ggplot2 and dplyr is also helpful.
 
@@ -119,29 +119,29 @@ This event is offered virtually. A zoom link will be sent via email to registere
 
 The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
 
-Mapping & GIS, Data Science",https://duke.libcal.com/event/9977262,Online
-9974392,2023-03-02,"Thu, Mar 02",Ethics of Data Management and Sharing,Jen Darragh & Sophia Lafferty-Hess,Online,10:00 am - 12:00 pm,10:00 AM,12:00 PM,120,"[Online] This workshop will explore the many different ethical issues that can arise with data management and sharing and strategies to address those issues. Topics covered will include a framework for analyzing ethical cases, the use of secondary data in research, proper consent procedures, de-identification, and the impact of laws on data sharing. We will also explore the application of diversity and equity principles to open science and data sharing. For instance, how can researchers ethically collect, handle, and share data from certain communities, such as Indigenous People? This workshop will contain both lecture and small group discussion where participants will engage with key ethical concepts and apply those concepts to a case-study.
+Mapping & GIS, Data Science"
+9974392,"Thursday, Mar 02 10:00am - 12:00pm",Ethics of Data Management and Sharing,Jen Darragh & Sophia Lafferty-Hess,[Online],https://duke.libcal.com/event/9974392,"This workshop will explore the many different ethical issues that can arise with data management and sharing and strategies to address those issues. Topics covered will include a framework for analyzing ethical cases, the use of secondary data in research, proper consent procedures, de-identification, and the impact of laws on data sharing. We will also explore the application of diversity and equity principles to open science and data sharing. For instance, how can researchers ethically collect, handle, and share data from certain communities, such as Indigenous People? This workshop will contain both lecture and small group discussion where participants will engage with key ethical concepts and apply those concepts to a case-study.
 
 This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
 
 The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
 
-Data Management",https://duke.libcal.com/event/9974392,Online
-9994184,2023-03-03,"Fri, Mar 03",Make a horizontal dot (forest) plot in Excel,Eric Monson,Online,10:00 am - 11:00 am,10:00 AM,11:00 AM,60,"[Online] Horizontal bar charts are one of the Excel default plots, but what if you need the same arragement, but with symbols instead of bars, and perhaps you need error bars on those symbols (forest plot) or sets of symbols with bars in between (dumbbell plot)? In this short session you'll learn a very general technique for tricking Excel into making these sorts of plots. It's a bit of a pain the first time around, but once you practice a couple times you'll be a pro at bending Excel to your data visualization will!
+Data Management"
+9994184,"Friday, Mar 03 10:00am - 11:00am",Make a horizontal dot (forest) plot in Excel,Eric Monson,[Online],https://duke.libcal.com/event/9994184,"Horizontal bar charts are one of the Excel default plots, but what if you need the same arragement, but with symbols instead of bars, and perhaps you need error bars on those symbols (forest plot) or sets of symbols with bars in between (dumbbell plot)? In this short session you'll learn a very general technique for tricking Excel into making these sorts of plots. It's a bit of a pain the first time around, but once you practice a couple times you'll be a pro at bending Excel to your data visualization will!
 
 This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
 
 The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
 
-Data Visualization",https://duke.libcal.com/event/9994184,Online
-9974561,2023-03-22,"Wed, Mar 22",Open Scholarship: Practices and Principles,"Jen Darragh, Sophia Lafferty-Hess & Paolo Mangiafico",Online,01:00 pm - 03:00 pm,01:00 PM,03:00 PM,120,"[Online] With the recent trends towards openness as expressed in funder and journal policies (such as the new OSTP memo focusing on Immediate and Equitable Access to  Federally Funded Research), many scholars are looking to build new practices into their workflows and enhance their impact. This workshop will present an overview of how and why you might incorporate open scholarship practices into your research and publishing, including the benefits to you, your discipline, and the broader public. It will also prepare you to meet new requirements being put in place by many funding agencies, and give you tools to make sure you can protect your rights and get credit for your work while sharing it broadly. 
+Data Visualization"
+9974561,"Wednesday, Mar 22 1:00pm - 3:00pm",Open Scholarship: Practices and Principles,"Jen Darragh, Sophia Lafferty-Hess & Paolo Mangiafico",[Online],https://duke.libcal.com/event/9974561,"With the recent trends towards openness as expressed in funder and journal policies (such as the new OSTP memo focusing on Immediate and Equitable Access to  Federally Funded Research), many scholars are looking to build new practices into their workflows and enhance their impact. This workshop will present an overview of how and why you might incorporate open scholarship practices into your research and publishing, including the benefits to you, your discipline, and the broader public. It will also prepare you to meet new requirements being put in place by many funding agencies, and give you tools to make sure you can protect your rights and get credit for your work while sharing it broadly. 
 
 This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
 
 The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
 
-Data Management",https://duke.libcal.com/event/9974561,Online
-9994117,2023-03-28,"Tue, Mar 28",Effective Academic Posters,Eric Monson,Online,05:00 pm - 06:30 pm,05:00 PM,06:30 PM,90,"[Online] Poster sessions are an incredible opportunity to share our work with a broader audience, get feedback, and network with our peers, as well as potential employers, funders and collaborators. Our careers often depend on performing well in these exciting and often chaotic venues, but few of us are trained in graphic design and visual storytelling! In this talk, I will present some principles for creating an effective academic poster, and introduce you to a group critique process that should help you tell your story more clearly and stand out from the crowd.
+Data Management"
+9994117,"Tuesday, Mar 28 5:00pm - 6:30pm",Effective Academic Posters,Eric Monson,[Online],https://duke.libcal.com/event/9994117,"Poster sessions are an incredible opportunity to share our work with a broader audience, get feedback, and network with our peers, as well as potential employers, funders and collaborators. Our careers often depend on performing well in these exciting and often chaotic venues, but few of us are trained in graphic design and visual storytelling! In this talk, I will present some principles for creating an effective academic poster, and introduce you to a group critique process that should help you tell your story more clearly and stand out from the crowd.
 
 You don't need any software installed for this workshop – it is a talk with an interactive portion at the end.
 
@@ -149,8 +149,8 @@ This event is offered virtually. A zoom link will be sent via email to registere
 
 The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at anytime prior to the conclusion of the workshop.
 
-Data Visualization",https://duke.libcal.com/event/9994117,Online
-9994126,2023-04-06,"Thu, Apr 06",Python for Data Science: Pandas 103 – groupby and aggregation,Eric Monson,Online,10:00 am - 12:00 pm,10:00 AM,12:00 PM,120,"[Online] Data exploration In Python using grouping and aggregation. This is an intermediate-level, live teaching session where you will learn how to use the Pandas module for exploring tablular (spreadsheet) data using the groupby() and pivot_table() functions, as well as some visualizations of results.
+Data Visualization"
+9994126,"Thursday, Apr 06 10:00am - 12:00pm",Python for Data Science: Pandas 103 – groupby and aggregation,Eric Monson,[Online],https://duke.libcal.com/event/9994126,"Data exploration In Python using grouping and aggregation. This is an intermediate-level, live teaching session where you will learn how to use the Pandas module for exploring tablular (spreadsheet) data using the groupby() and pivot_table() functions, as well as some visualizations of results.
 
 Python can be a great option for exploration, analysis and visualization of tabular data, such as spreadsheets and CSV files, if you know which tools to use and how to get started. This workshop builds upon the introductory Pandas 101 & 102 workshops I gave in Spring 2022 & Fall 2022. (Code repository. See below for recordings.) In Pandas 101, I covered the very basics of how to access your data in a Panda DataFrame and do some basic plotting. In Pandas 102, I introduced how to get data into a ""tidy"" form, and merge datasets (like doing an SQL JOIN). In this Pandas 103, I will show you some of the way you can explore patterns in data by aggretating across categories and time. This is similar to the process of data exploration in Tableau, but here with Python, Pandas and JupyterLab.
 
@@ -169,11 +169,11 @@ This event is offered virtually. A zoom link will be sent via email to registere
 
 The content of the workshop may be recorded. If you are uncomfortable with a recording being published please contact the instructor at anytime prior to the conclusion of the workshop.
 
-Data Science, Data Visualization",https://duke.libcal.com/event/9994126,Online
-9974583,2023-04-19,"Wed, Apr 19",An Introduction to Reproducible Research Practices,Sophia Lafferty-Hess & John Little,Online,10:00 am - 12:00 pm,10:00 AM,12:00 PM,120,"[Online] The importance of reproducibility, replication, and transparency in the research endeavor is increasingly discussed in academia. This workshop will introduce the concept of “reproducibility” and foundational strategies that can increase the reproducibility of your work particularly related to organization, documentation, literate coding techniques, version control, and archiving data and code for future access and use. We will also present a protocol, the TIER protocol, as a tool that graduate students or others can use that are first approaching reproducibility. In the second half of the workshop we will present a potential end-to-end reproducible workflow using git, RStudio, Binder, and Zenodo to demonstrate some of the concepts in practice. 
+Data Science, Data Visualization"
+9974583,"Wednesday, Apr 19 10:00am - 12:00pm",An Introduction to Reproducible Research Practices,Sophia Lafferty-Hess & John Little,[Online],https://duke.libcal.com/event/9974583,"The importance of reproducibility, replication, and transparency in the research endeavor is increasingly discussed in academia. This workshop will introduce the concept of “reproducibility” and foundational strategies that can increase the reproducibility of your work particularly related to organization, documentation, literate coding techniques, version control, and archiving data and code for future access and use. We will also present a protocol, the TIER protocol, as a tool that graduate students or others can use that are first approaching reproducibility. In the second half of the workshop we will present a potential end-to-end reproducible workflow using git, RStudio, Binder, and Zenodo to demonstrate some of the concepts in practice. 
 
 This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
 
 The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
 
-Data Science, Data Management",https://duke.libcal.com/event/9974583,Online
+Data Science, Data Management"

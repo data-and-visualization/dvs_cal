@@ -14,9 +14,12 @@ This repository was **forked** from https://github.com/herndonj/dvs_cal
 
 * **02_make_main_workshop_list.Rmd** - a migration from `rvestLibcalCode.R`.  Use this to generate the pre-semester _list of workshops_ and the pre-semester advertising **flyer**.  Gathers data from the LibCal API, writes a CSV file, writes a GoogleSheet to the google account holder's home directory (via `library(googlesheets4)`)
 * **03_attendance_worksheets.Rmd** - make an attendance sheet for each workshop, upload to Google Drive (CDVS folder)
+* **01_gather_and_wrangle.R** - havest LibCal API data to make a data_frame of all the workshops as reported at the beginning of the semester.
+
+### Not in use
+
 * **05_panopto_report.Rmd** - generate a report for Sophia to send to Paul so Paul can program the room recordings
 * **06_duke_devents_report.Rmd** - generate a report for Sophia to review and send to the Duke Events Calendar people
-* **01_gather_and_wrangle.R** - havest LibCal API data to make a data_frame of all the workshops as reported at the beginning of the semester.
 
 ## Changes in Registration Form
 
