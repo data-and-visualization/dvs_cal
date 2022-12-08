@@ -1,6 +1,5 @@
 ---
 title: "Create Attendance Worksheets"
-output: html_notebook
 ---
 
 Make one blank attendance template for each workshop. Write each blank template to Google Drive as a spreadsheet. 
