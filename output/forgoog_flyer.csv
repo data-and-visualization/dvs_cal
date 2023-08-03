@@ -1,16 +1,60 @@
 Workshop,Date,Time,Mode,registration_link,description
-Tools for Data Management,"Tue, Jan 17",1:00pm - 3:00pm,Online,https://duke.libcal.com/event/9974189,"This workshop will first introduce data management practices for researchers to consider and apply throughout the research lifecycle. Good data management practices pertaining to planning, organization, documentation, storage and backup, sharing, citation, and preservation will be presented using examples that span disciplines. The second hour of this workshop will offer a mini “tour” of research data management tools including GitHub, LabArchives, and OSF and provide a framework for considering how to assess data management tools for future adoption. 
+"R for Lunch: getting started (import data, data wrangling)","Thu, Aug 31",12:30pm - 1:30pm,In-Person,https://duke.libcal.com/event/11002152,"Part of the RFun Series. R for Lunch is a one-hour lunch-time series designed to help people learn R for reproducible computational thinking. R is a data science and data visualization tool which, when combined with RStudio, the Tidyverse, and Quarto, provides a powerful and flexible environment for reproducible research. Note: Lunch will NOT be provided but you are welcome to bring your own!
 
-This workshop contains similar material to the previously offered “Research Data Management 101” workshop offered in previous semesters - participants who have attended this previous workshop should not attend.
+Register in advance. Meet in Person.  Recordings will be shared on a delayed schedule. This event is open to non-Duke participants. 
+
+R for Lunch (1 hour each)
+- Thursday - 8/31/23 ; 12:30 ; import data / data wrangling with dplyr
+- Friday - 9/1/23 ; 12:30 ; data wrangling with dplyr
+- Friday - 9/8/23 ; 12:30 ; Visualization with ggplot2
+- Friday - 9/15/23 ; 12:30 ; ai-assisted coding ; interactive viz (HTML Widgets, ObservableJS)
+- Friday - 9/22/23 ; 12:30 ; Tidy data ; pivot, join, iteration part1
+- Friday - 9/29/23 ; 12:30 ; functions & purrr; iteration part2
+- Friday - 10/6/23 ; 1:30 ; regression and tidymodels  
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
+
+Data Science"
+R for Lunch: data wrangling with dplyr,"Fri, Sep 01",12:30pm - 1:30pm,In-Person,https://duke.libcal.com/event/11002159,"Part of the Rfun Series. R for Lunch is a one-hour lunch-time series designed to help people learn R for reproducible computational thinking. R is a data science and data visualization tool which, when combined with RStudio, the Tidyverse, and Quarto, provides a powerful and flexible environment for reproducible research. Note: Lunch will NOT be provided but you are welcome to bring your own!
+
+Register in advance. Meet in Person.  Recordings will be shared on a delayed schedule. This event is open to non-Duke participants.
+
+R for Lunch (1 hour each)
+- Thursday - 8/31/23 ; previous session
+- Friday - 9/1/23 ; 12:30 ; data wrangling with dplyr (builds on previous sessions)
+- Friday - 9/8/23 ; 12:30 ; Visualization with ggplot2
+- Friday - 9/15/23 ; 12:30 ; ai-assisted coding ; interactive viz (HTML Widgets, ObservableJS)
+- Friday - 9/22/23 ; 12:30 ; Tidy data ; pivot, join, iteration part1
+- Friday - 9/29/23 ; 12:30 ; functions & purrr; iteration part2
+- Friday - 10/6/23 ; 1:30 ; regression and tidymodels  
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
+
+Data Science"
+R for Lunch: visualization with ggplot2,"Fri, Sep 08",12:30pm - 1:30pm,In-Person,https://duke.libcal.com/event/11002162,"Part of the Rfun Series. R for Lunch is a one-hour lunch-time series designed to help people learn R for reproducible computational thinking. R is a data science and data visualization tool which, when combined with RStudio, the Tidyverse, and Quarto, provides a powerful and flexible environment for reproducible research. Note: Lunch will NOT be provided but you are welcome to bring your own!
+
+Register in advance. Meet in Person.  Recordings will be shared on a delayed schedule. This event is open to non-Duke participants.
+
+R for Lunch (1 hour each)
+- previous sessions (8/31 & 9/1)- Friday - 9/8/23 ; 12:30 ; Visualization with ggplot2  (builds on previous sessions)
+- Friday - 9/15/23 ; 12:30 ; ai-assisted coding ; interactive viz (HTML Widgets, ObservableJS)
+- Friday - 9/22/23 ; 12:30 ; Tidy data ; pivot, join, iteration part1
+- Friday - 9/29/23 ; 12:30 ; functions & purrr; iteration part2
+- Friday - 10/6/23 ; 1:30 ; regression and tidymodels  
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
+
+Data Science"
+Tips for Effective Data Visualization,"Mon, Sep 11",6:00pm - 7:00pm,Online,https://duke.libcal.com/event/11004239,"Visualization is a powerful way to reveal patterns in data, attract attention, and get your message across to an audience quickly and clearly. But, there are many steps in that journey from exploration to information to influence, and many choices to make when putting it all together to tell your story. I will cover some basic guidelines for effective visualization, point out a few common pitfalls to avoid, and run through a critique and iterations of an existing visualization to help you start seeing better choices beyond the program defaults. This event is open to non-Duke participants.
 
 This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
 
 The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
 
-Data Management, Data Science"
-Intro to ArcGIS Pro,"Wed, Jan 18",10:00am - 12:00pm,Online,https://duke.libcal.com/event/9994067,"ArcGIS Pro is the newer alternative interface to the tried-and-true ArcGIS Desktop software (ArcMap), with essentially the same functions, but with more of a MS-Office feel. As a native 64-bit program, it also has superior performance. There are a few nice feature enhancements such as multiple layouts in a single project, and it's more fully integrated with ArcGIS Online.
+Data Visualization"
+Intro to ArcGIS Pro,"Wed, Sep 13",10:00am - 12:00pm,Online,https://duke.libcal.com/event/11003805,"ArcGIS Pro is the latest flagship desktop GIS client application from Esri.  Compared to the earlier ArcMap interface, it has superior performance as a native 64-bit program. There are a few nice feature enhancements such as multiple layouts in a single project, and it's more fully integrated with ArcGIS Online.
 
-ArcGIS Pro can help you analyze or visualize digital data that has a locational component, and we'll discuss starting points for obtaining data. Examples will focus on social science data and feature (vector) layers, but attendees are encouraged to ask questions regarding their own needs and will be welcome to make one-on-one appointments later for more focused instruction. This is an introductory class, and it's not necessary to be familiar with GIS software beforehand.
+ArcGIS Pro can help you analyze or visualize digital data that has a locational component, and we'll discuss starting points for obtaining data. Examples will focus on social science data and feature (vector) layers, but attendees are encouraged to ask questions regarding their own needs and will be welcome to make one-on-one appointments later for more focused instruction. This is an introductory class, and it's not necessary to be familiar with GIS software beforehand. This event is open to non-Duke participants.
 
 Attendees should have access to ArcGIS Pro. These are the options for Duke affiliates:
 
@@ -23,75 +67,20 @@ This event is offered virtually. A zoom link will be sent via email to register
 The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at anytime prior to the conclusion of the workshop.
 
 Mapping & GIS"
-"R for data science: getting started, EDA, data wrangling","Tue, Jan 24",10:00am - 12:00pm,Online,https://duke.libcal.com/event/9980184,"Part of the Rfun series. R and the Tidyverse are a data-first coding language that enables reproducible workflows. In this two-part workshop you’ll learn the quick-start fundamentals of R and the Tidyverse. You’ll learn how to access and install RStudio, how to wrangle data for analysis, gain a brief introduction to visualization, and practice Exploratory Data Analysis (EDA).
+R for Lunch: coding with ChatGPT,"Fri, Sep 15",12:30pm - 1:30pm,In-Person,https://duke.libcal.com/event/11002165,"Part of the Rfun Series. R for Lunch is a one-hour lunch-time series designed to help people learn R for reproducible computational thinking. R is a data science and data visualization tool which, when combined with RStudio, the Tidyverse, and Quarto, provides a powerful and flexible environment for reproducible research. Note: Lunch will NOT be provided but you are welcome to bring your own!
 
-Part 1 has no prerequisites and no prior experience is necessary. By the end of part 1 you will import data, edit and save scripts, subset data, use projects to organize your work, and develop self-help techniques. 
+Register in advance. Meet in Person.  Recordings will be shared on a delayed schedule. This event is open to non-Duke participants
 
-This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop. We will use the flipped classroom model. Quickstart videos will be distributed one week prior to the event.
+R for Lunch (1 hour each)
+- previous sessions (8/3, 9/1, 9/8)- Friday - 9/15/23 ; 12:30 ; ai-assisted coding & interactive viz with HTML Widgets, ObservableJS ;  (builds on previous sessions)
+- Friday - 9/22/23 ; 12:30 ; Tidy data ; pivot, join, iteration part1
+- Friday - 9/29/23 ; 12:30 ; functions & purrr; iteration part2
+- Friday - 10/6/23 ; 1:30 ; regression and tidymodels  
 
-The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at anytime prior to the conclusion of the workshop.
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
 
 Data Science"
-"R for data science: visualization, pivot, join, regression","Thu, Jan 26",10:00am - 12:00pm,Online,https://duke.libcal.com/event/9980204,"Part of the Rfun series.  R and the Tidyverse are a data-first coding language that enables reproducible workflows. In this two-part workshop you’ll learn the quick-start fundamentals of R and the Tidyverse.  You’ll learn about visualization using ggplot2, how to make interactive charts for use in dashboards, how to reshape and merge data, and see a brief introduction to linear regression models.
-
-Part 2 requires the familiarity of part 1.  By the end of part 2 you will have a familiarity with the grammar of graphics, be introduced to interactivity techniques, be able to invoke data joins, and data pivots.
-
-This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop. We will use the flipped classroom model.  Quickstart videos will be distributed one week prior to the event.
-
-The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at anytime prior to the conclusion of the workshop.
-
-Data Science"
-R for data science: custom functions and iteration,"Tue, Jan 31",10:00am - 11:30am,Online,https://duke.libcal.com/event/9980207,"Part of the Rfun series. R and the Tidyverse are a data-first coding language that enables reproducible workflows. This Introduction to iteration and custom functions uses a case-study approach to iterating over rows in a data frame using the {purrr} package.  {purrr} is an efficient and easier alternative to writing FOR loops.
-
-Prerequisite:  familiarity with Tidyverse and ggplot (See Rfun quickStart).  This workshop will explore efficient alternatives to for-loops by leveraging custom functions and the purrr library functions, e.g. map().  With these skills you can organize data frames for iteration.  For example, when ingesting multiple CSV files or multiple Excel worksheets.  You will learn nesting techniques that foster iteration.  You'll be able to organize data frames that contain models, and visualizations. 
-
-This event is offered virtually. A zoom link will be sent via email to registered participants. 
-
-The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at anytime prior to the conclusion of the workshop.
-
-Data Science"
-Effective Data Visualization,"Tue, Jan 31",5:00pm - 6:30pm,Online,https://duke.libcal.com/event/9994118,"Visualization is a powerful way to reveal patterns in data, attract attention, and get your message across to an audience quickly and clearly. But, there are many steps in that journey from exploration to information to influence, and many choices to make when putting it all together to tell your story. I will cover some basic guidelines for effective visualization, point out a few common pitfalls to avoid, and run through a critique and iterations of an existing visualization to help you start seeing better choices beyond the program defaults.
-
-This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
-
-The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
-
-Data Visualization"
-Creating dashboards with R: flexdashboards and Shiny,"Thu, Feb 02",10:00am - 12:00pm,In-Person,https://duke.libcal.com/event/9991452,"Part of the Rfun series. Flexdashboards and Shiny make it easy to transition from analytics to online dashbboards using R without having to learn HTML, CSS, and javascript. This workshop provides an overview of felxdashboards and the shiny framework to demonstrate the possibilties of creating dashboards in R.
-
-Prerequisites: Experience using the R statistical language or CDVS's R for Data Science Series are helpful. All are welcome, but this workshop is not designed to provide training on using the analytics and visualization features in R.
-
-Note: The Edge Workshop Room does not provide computers. If you would like to follow along on a computer, please bring a laptop to the workshop.
-
-The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
-
-Data Visualization, Data Science, Mapping & GIS"
-Designing Thematic Maps,"Tue, Feb 07",10:30am - 12:00pm,Online,https://duke.libcal.com/event/9995947,"Making maps is a creative rather than a purely technical process. Even if you can expertly use the latest and most advanced tools, you still have to make design decisions based on your specific data, audience, and goals. This workshop will provide practical techniques for visualizing data with effective, visually appealing maps. We will explore design principles by analyzing plenty of examples. No specific software experience or GIS knowledge is required.
-
-This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
-
-The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
-
-Mapping & GIS, Data Visualization"
-Preparing for Data Publishing: Standards and Disciplinary Repositories,"Tue, Feb 14",10:00am - 12:00pm,Online,https://duke.libcal.com/event/9974291,"Research data have value beyond their original purpose and by sharing or ""publishing"" your data you can support open science, reproducibility, and future innovation. This workshop will explore strategies and best practices for formally publishing your data in a data repository. Topics covered will include new modes of publishing in academia, the use of data and metadata standards to support interoperability and harmonization, an overview of repository options and key features, examples of disciplinary repositories, and data publishing methods to increase the impact of research projects and support the FAIR Guiding Principles (i.e., Findable, Accessible, Interoperable, and Reusable). Participants will also practice finding and assessing data repositories via a hands-on exercise. 
-
-This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
-
-The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
-
-Data Management"
-Intro to QGIS,"Wed, Feb 15",10:00am - 12:00pm,Online,https://duke.libcal.com/event/9994068,"Are you looking for an open source option for GIS to make maps or to analyze geospatial data? In this workshop we will demonstrate how to import and analyze data in QGIS and discuss the benefits of using QGIS over other GIS software. It's free and available for multiple platforms, not just Windows as is ArcGIS. In the process, we'll go over some general GIS concepts such as layers, types of GIS files, and projections, with an emphasis on feature (vector) layers. This is an introductory class, and no prior GIS experience is needed.
-
-Attendees should have installed QGIS beforehand.
-
-Go to the QGIS Downloads webpage.
-	Download and install the QGIS Installer for either the latest version or the latest long-term (most stable) release, either 64-bit or 32-bit.  Versions for several platforms are available.
-This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
-
-The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at anytime prior to the conclusion of the workshop.
-
-Mapping & GIS"
-Meeting Data Management Plan Requirements,"Mon, Feb 20",1:00pm - 3:00pm,Online,https://duke.libcal.com/event/9974342,"There are many federal and private funders who require data management plans as part of a grant application, including NIH who recently implemented a new Data Management and Sharing Policy that went into effect on January 25, 2023. This workshop will cover the components of a data management plan, what makes a strong plan and how to adhere to it, and where to find guidance, tools, resources, and assistance for building funder-based plans. We will also discuss how to make data management plans actionable and meaningful living documents to support research integrity, reproducibility, reuse, and verification of results. This workshop is a collaboration of Duke University Libraries and the Office of Scientific Integrity. 
+Meeting Data Management and Sharing Plan Requirements,"Tue, Sep 19",1:00pm - 3:00pm,Online,https://duke.libcal.com/event/10998284,"There are many federal and private funders who require data management and sharing plans as part of a grant application, including NIH who recently implemented a new Data Management and Sharing Policy that went into effect on January 25, 2023. This workshop will cover the components of a data management plan, what makes a strong plan and how to adhere to it, and where to find guidance, tools, resources, and assistance for building funder-based plans. We will also discuss how to make data management plans actionable and meaningful living documents to support research integrity, reproducibility, reuse, and verification of results. This workshop is a collaboration of Duke University Libraries, the Office of Scientific Integrity, and the Medical Center Library and Archives. This event is open to non-Duke participants.
 
 This workshop is eligible for the 200-level faculty and staff RCR. 
 
@@ -100,80 +89,151 @@ This event is offered virtually. A zoom link will be sent via email to registere
 The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
 
 Data Management"
-Quarto: a first look,"Thu, Feb 23",10:00am - 11:00am,Online,https://duke.libcal.com/event/9980425,"Quarto! Is it an open-source app? Is it a workflow?  Is it a web hosting environment?  Fundamentally Quarto is an approach to reproducible workflows that are especially useful when reporting outputs derived from scientific and technical computation.
+Story Maps,"Wed, Sep 20",1:00pm - 3:00pm,In-Person,https://duke.libcal.com/event/11003732,"This workshop will help you get started telling stories with maps on the ArcGIS StoryMaps platform. This easy-to-use web application combines interactive maps with narrative text, images, and videos to provide a powerful communication tool for any project with a spatial component. We will explore the capabilities of the platform, share best practices for designing effective stories, and guide participants through the process of creating their own story maps.
 
-In this demonstration we will compose visual reports using computational notebooks.   Using an open-source visual editor we will compose text peppered with code-chunks.  Outputs can inlude articles, reports, websites, books, slide-decks, PDF, MS Word, ePub, etc. Quarto conveniently accommodates equations, figures, advanced layouts, citations, and more.  If you use Python, R, Julia, ObservableJS, Jupyter notebooks, or VS Code, Quarto is an efficient way to document and exectute your research while dynamically generating reports.  
+No previous experience with GIS is necessary. This event is open to non-Duke participants. 
 
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
 
+Mapping & GIS"
+Flourish for Simple Network Visualizations,"Thu, Sep 21",10:00am - 11:00am,Online,https://duke.libcal.com/event/11004260,"Flourish is an online tool for ""Beautiful and easy data visualization and storytelling"". There are an amazing variety of standard and unusual visualization types available, one of which is a network (node-link / graph) diagram. While Gephi is my tool of choice for complicated networks, Flourish works great for simpler networks – interactive on the web, or static in a PowerPoint slide. In this workshop I'll show you the required data format, how to import it into the tool, adjust visual properties, and export to an SVG file which can be edited in PowerPoint. This event is open to non-Duke participants. 
 
-This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop. We will use the flipped classroom model. Quickstart videos will be distributed one week prior to the event.
+Expectations:
+
+If you want to play along with the exercises during the session, it will save time for you to register for a free account on Flourish before you arrive: https://flourish.studio/
+	If you need help with something during the session, you'll be expected to share your screen.
+This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
 
 The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at anytime prior to the conclusion of the workshop.
 
-Data Science"
-Geospatial Data in R: Mapping,"Thu, Feb 23",1:00pm - 3:00pm,Online,https://duke.libcal.com/event/9977262,"This workshop introduces the use of the R language for producing maps. We will demonstrate the advantages of a code-drive approach such as R for visualizing geospatial data. Participants will gain the skills to quickly and efficiently create a variety of map types for a website, presentation, or publication. In addition to working on hands-on coding exercises, we will also review practical guidance on designing effective maps.
-
-Attendees will need basic familiarity with R and RStudio to follow along with the exercises. Knowledge of tidyverse packages such as ggplot2 and dplyr is also helpful.
+Data Visualization"
+Tools for Data Management,"Thu, Sep 21",2:00pm - 4:00pm,Online,https://duke.libcal.com/event/10998307,"This workshop will first introduce data management practices for researchers to consider and apply throughout the research lifecycle. Good data management practices pertaining to planning, organization, documentation, storage and backup, sharing, citation, and preservation will be presented using examples that span disciplines. The second hour of this workshop will offer a mini “tour” of research data management tools including GitHub, LabArchives, and OSF and provide a framework for considering how to assess data management tools for future adoption. This event is open to non-Duke participants.
 
 This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
+
+Data Management, Data Science"
+"R for Lunch: pivot, join, and iteration","Fri, Sep 22",12:30pm - 1:30pm,In-Person,https://duke.libcal.com/event/11002167,"Part of the Rfun Series. R for Lunch is a one-hour lunch-time series designed to help people learn R for reproducible computational thinking. R is a data science and data visualization tool which, when combined with RStudio, the Tidyverse, and Quarto, provides a powerful and flexible environment for reproducible research. Note: Lunch will NOT be provided but you are welcome to bring your own!
+
+Register in advance. Meet in Person.  Recordings will be shared on a delayed schedule. This event is open to non-Duke participants. 
+
+R for Lunch (1 hour each)
+- previous sessions (8/3, 9/1, 9/8, 9/15)- Friday - 9/22/23 ; 12:30 ; Tidy data ; pivot, join, iteration part1;  (builds on previous sessions)
+- Friday - 9/29/23 ; 12:30 ; functions & purrr; iteration part2
+- Friday - 10/6/23 ; 1:30 ; regression and tidymodels  
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
+
+Data Science"
+Creating Online Maps with ArcGIS,"Tue, Sep 26",10:00am - 12:00pm,In-Person,https://duke.libcal.com/event/11003768,"This introductory workshop will teach you how to build interactive online maps. After reviewing fundamental mapping concepts and technologies, we will walk through hands-on activities in Esri's ArcGIS Online. ArcGIS Online is a cloud-based mapping and analysis platform you can use in your web browser. Topics will include: finding geospatial data, designing effective maps, sharing web applications, and using basic spatial analysis tools. This event is open to non-Duke participants. 
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
+
+Mapping & GIS"
+Intro to QGIS,"Wed, Sep 27",10:00am - 12:00pm,Online,https://duke.libcal.com/event/11003806,"Are you looking for an open source, but still full-featured, option for GIS to make maps or to analyze geospatial data? In this workshop we will demonstrate how to import and analyze data in QGIS and discuss the benefits of using QGIS over other GIS software. It's free and available for many platforms, not just Windows as is ArcGIS. In the process, we'll go over some general GIS concepts such as layers, types of GIS files, and projections, with an emphasis on feature (vector) layers. This is an introductory class, and no prior GIS experience is needed. This event is open to non-Duke participants. 
+
+Attendees should have installed QGIS beforehand.
+
+Go to the QGIS Downloads webpage.
+	Download and install the QGIS Installer for either the latest version or the latest long-term (most stable) release.  Versions for several platforms are available.
+This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at anytime prior to the conclusion of the workshop.
+
+Mapping & GIS"
+Ethics of Data Management and Sharing,"Wed, Sep 27",1:00pm - 3:00pm,Online,https://duke.libcal.com/event/10998309,"This workshop will explore the many different ethical issues that can arise with data management and sharing and strategies to address those issues. Topics covered will include a framework for analyzing ethical cases, the use of secondary data in research, proper consent procedures, de-identification, and the impact of laws on data sharing. We will also explore the application of diversity and equity principles to open science and data sharing. For instance, how can researchers ethically collect, handle, and share data from certain communities, such as Indigenous People? This workshop will contain both lecture and small group discussion where participants will engage with key ethical concepts and apply those concepts to a case-study. This event is open to non-Duke participants.
+
+This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
+
+Data Management"
+R for Lunch: functions and iteration,"Fri, Sep 29",12:30pm - 1:30pm,In-Person,https://duke.libcal.com/event/11002169,"Part of the Rfun Series. R for Lunch is a one-hour lunch-time series designed to help people learn R for reproducible computational thinking. R is a data science and data visualization tool which, when combined with RStudio, the Tidyverse, and Quarto, provides a powerful and flexible environment for reproducible research. Note: Lunch will NOT be provided but you are welcome to bring your own!
+
+Register in advance. Meet in Person.  Recordings will be shared on a delayed schedule. This event is open to non-Duke participants
+
+R for Lunch (1 hour each)
+- previous sessions (8/3, 9/1, 9/8, 9/15, 9/22)- Friday - 9/29/23 ; 12:30 ; functions & purrr, iteration (continued);  (builds on previous sessions)
+- Friday - 10/6/23 ; 1:30 ; regression and tidymodels  
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
+
+Data Science"
+Paper Maps in Digital Projects,"Tue, Oct 03",11:00am - 12:00pm,In-Person,https://duke.libcal.com/event/11003792,"Do you want to incorporate paper maps into an interactive online map? Overlaying scanned maps can help illustrate change over time, offer additional context, provide a visually appropriate background, and give access to spatial data not available in other formats.
+
+This workshop will teach you how to bring paper maps into web mapping tools. We will cover concepts and techniques related to georeferencing, the process of aligning map images with the correct locations on the earth. Tutorials will present steps with easy web-based tools; no software is needed. In addition to learning the process, we will discuss some challenges of working with historical maps.
+
+Prior experience with GIS is not required. This event is open to non-Duke participants. 
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
+
+Mapping & GIS"
+Intro to Tableau: Easy Charts & Maps,"Thu, Oct 05",2:00pm - 4:00pm,Online,https://duke.libcal.com/event/11004270,"Tableau Public (available for both Windows and Mac) is incredibly useful free software that allows individuals to quickly and easily explore their data with a wide variety of visual representations, as well as create interactive web-based visualization dashboards. This workshop will focus on using Tableau Public to create data visualizations, starting with an overview of how the program thinks about data, common data manipulation and loading, and the terminology used. Activities will include a sample data visualization and mapping project, which will give people hands-on experience using Tableau’s basic chart types and dashboard creation tools. We will also discuss publishing to the Tableau Public web server and related services and tools, like the full Tableau Desktop application (free for full-time students).
+
+This workshop is designed for beginners who might be comfortable with data and spreadsheets, but have no experience with Tableau, are curious about what it can do, and want to get a quick introduction so they can start playing on their own. This event is open to non-Duke participants.
+
+Expectations: 
+
+If you need help with something during the session, you'll be expected to share your screen.
+	You will be expected to arrive with Tableau Public or Desktop already installed on the machine you're Zooming from if you want to work along with me or do the exercises during the workshop!
+	Tableau is available through the company itself, not OIT
+		Tableau Public is free and available for Mac and Windows. Download at: https://www.tableau.com/products/public/download 
+		Tableau Desktop licenses are free for students (Google ""Tableau for Students"") or those doing non-profit research (as defined by Tableau – Google ""Tableau for Teaching"")
+		Please don't use the online Web Authoring version that just runs in your browser if you're planning to play along with the exercises – there are some differences that cause problems.
+	
+This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at anytime prior to the conclusion of the workshop.
+
+Data Visualization"
+R for Lunch: regression and tidymodels,"Fri, Oct 06",1:30pm - 2:30pm,In-Person,https://duke.libcal.com/event/11002170,"Part of the Rfun Series. R for Lunch is a one-hour lunch-time series designed to help people learn R for reproducible computational thinking. R is a data science and data visualization tool which, when combined with RStudio, the Tidyverse, and Quarto, provides a powerful and flexible environment for reproducible research. Note: Lunch will NOT be provided but you are welcome to bring your own!
+
+Register in advance. Meet in Person.  Recordings will be shared on a delayed schedule. This event is open to non-Duke participants. 
+
+R for Lunch (1 hour each)
+- previous sessions (8/3, 9/1, 9/8, 9/15, 9/22, 9/29)
+- Friday - 10/6/23 ; New time 1:30 ; regression and tidymodels;  (builds on previous sessions). This session will focus on how to maniuplate models compuatationally.  This is not a workshop on interpretting or choosing statistical models.
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
+
+Data Science"
+Mapping with R,"Tue, Oct 10",10:00am - 12:00pm,In-Person,https://duke.libcal.com/event/11003775,"This workshop introduces the use of the R language for producing maps. We will demonstrate the advantages of a code-drive approach such as R for visualizing geospatial data. Participants will gain the skills to quickly and efficiently create a variety of map types for a website, presentation, or publication. In addition to working on hands-on coding exercises, we will also review practical guidance on designing effective maps.
+
+Attendees will need basic familiarity with R and RStudio to follow along with the exercises. Knowledge of tidyverse packages such as ggplot2 and dplyr is also helpful. This event is open to non-Duke participants. 
 
 The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
 
 Mapping & GIS, Data Science"
-Ethics of Data Management and Sharing,"Thu, Mar 02",10:00am - 12:00pm,Online,https://duke.libcal.com/event/9974392,"This workshop will explore the many different ethical issues that can arise with data management and sharing and strategies to address those issues. Topics covered will include a framework for analyzing ethical cases, the use of secondary data in research, proper consent procedures, de-identification, and the impact of laws on data sharing. We will also explore the application of diversity and equity principles to open science and data sharing. For instance, how can researchers ethically collect, handle, and share data from certain communities, such as Indigenous People? This workshop will contain both lecture and small group discussion where participants will engage with key ethical concepts and apply those concepts to a case-study.
-
-This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
-
-The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
-
-Data Management"
-Make a horizontal dot (forest) plot in Excel,"Fri, Mar 03",10:00am - 11:00am,Online,https://duke.libcal.com/event/9994184,"Horizontal bar charts are one of the Excel default plots, but what if you need the same arragement, but with symbols instead of bars, and perhaps you need error bars on those symbols (forest plot) or sets of symbols with bars in between (dumbbell plot)? In this short session you'll learn a very general technique for tricking Excel into making these sorts of plots. It's a bit of a pain the first time around, but once you practice a couple times you'll be a pro at bending Excel to your data visualization will!
-
-This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
-
-The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
-
-Data Visualization"
-Open Scholarship: Practices and Principles,"Wed, Mar 22",1:00pm - 3:00pm,Online,https://duke.libcal.com/event/9974561,"With the recent trends towards openness as expressed in funder and journal policies (such as the new OSTP memo focusing on Immediate and Equitable Access to  Federally Funded Research), many scholars are looking to build new practices into their workflows and enhance their impact. This workshop will present an overview of how and why you might incorporate open scholarship practices into your research and publishing, including the benefits to you, your discipline, and the broader public. It will also prepare you to meet new requirements being put in place by many funding agencies, and give you tools to make sure you can protect your rights and get credit for your work while sharing it broadly. 
-
-This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
-
-The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
-
-Data Management"
-Effective Academic Posters,"Tue, Mar 28",5:00pm - 6:30pm,Online,https://duke.libcal.com/event/9994117,"Poster sessions are an incredible opportunity to share our work with a broader audience, get feedback, and network with our peers, as well as potential employers, funders and collaborators. Our careers often depend on performing well in these exciting and often chaotic venues, but few of us are trained in graphic design and visual storytelling! In this talk, I will present some principles for creating an effective academic poster, and introduce you to a group critique process that should help you tell your story more clearly and stand out from the crowd.
-
-You don't need any software installed for this workshop – it is a talk with an interactive portion at the end.
-
-This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
-
-The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at anytime prior to the conclusion of the workshop.
-
-Data Visualization"
-Python for Data Science: Pandas 103 – groupby and aggregation,"Thu, Apr 06",10:00am - 12:00pm,Online,https://duke.libcal.com/event/9994126,"Data exploration In Python using grouping and aggregation. This is an intermediate-level, live teaching session where you will learn how to use the Pandas module for exploring tablular (spreadsheet) data using the groupby() and pivot_table() functions, as well as some visualizations of results.
-
-Python can be a great option for exploration, analysis and visualization of tabular data, such as spreadsheets and CSV files, if you know which tools to use and how to get started. This workshop builds upon the introductory Pandas 101 & 102 workshops I gave in Spring 2022 & Fall 2022. (Code repository. See below for recordings.) In Pandas 101, I covered the very basics of how to access your data in a Panda DataFrame and do some basic plotting. In Pandas 102, I introduced how to get data into a ""tidy"" form, and merge datasets (like doing an SQL JOIN). In this Pandas 103, I will show you some of the way you can explore patterns in data by aggretating across categories and time. This is similar to the process of data exploration in Tableau, but here with Python, Pandas and JupyterLab.
-
-If you don't have any programming experience, or you have never used Python at all before, the material may be too confusing to be useful. I won't be teaching the language itself. 
-	If you have at least a little bit of Python exposure, but haven't used Pandas much or at all, I would advise watching at least the Spring 2020 Pandas 102 video before you attend. If you find that too advanced, or want a more complete introduction to Pandas, start instead with the Spring 2022 Pandas 101 video.
-Expectations: 
-
-You will be expected to have your video on for at least part of the session, although we won't be doing any group work or sharing.
-	If you need help with something during the session, you'll be expected to share your screen.
-	You will be expected to arrive with the Anaconda Python distribution already installed on the machine you're Zooming from if you want to work along with me or do the exercises during the workshop!
-	They now call this the Anaconda Individual Edition, available for Mac, Windows, or LInux
-		I would advise installing just for yourself, not for all users (installs in your Users directory, and doesn't need administrator priviledges)
-		I will hold open Zoom walk-in hours for an hour before the workshop to help remotely troubleshoot installation issues. Email me at emonson@duke.edu to get the URL.
-	
-This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop. 
-
-The content of the workshop may be recorded. If you are uncomfortable with a recording being published please contact the instructor at anytime prior to the conclusion of the workshop.
-
-Data Science, Data Visualization"
-An Introduction to Reproducible Research Practices,"Wed, Apr 19",10:00am - 12:00pm,Online,https://duke.libcal.com/event/9974583,"The importance of reproducibility, replication, and transparency in the research endeavor is increasingly discussed in academia. This workshop will introduce the concept of “reproducibility” and foundational strategies that can increase the reproducibility of your work particularly related to organization, documentation, literate coding techniques, version control, and archiving data and code for future access and use. We will also present a protocol, the TIER protocol, as a tool that graduate students or others can use that are first approaching reproducibility. In the second half of the workshop we will present a potential end-to-end reproducible workflow using git, RStudio, Binder, and Zenodo to demonstrate some of the concepts in practice. 
+An Introduction to Reproducible Research Practices,"Wed, Oct 11",10:00am - 12:00pm,Online,https://duke.libcal.com/event/10998311,"The importance of reproducibility, replication, and transparency in the research endeavor is increasingly discussed in academia. This workshop will introduce the concept of “reproducibility” and foundational strategies that can increase the reproducibility of your work particularly related to organization, documentation, literate coding techniques, version control, and archiving data and code for future access and use. We will also present a protocol, the TIER protocol, as a tool that graduate students or others can use that are first approaching reproducibility. In the second half of the workshop we will present a potential end-to-end reproducible workflow using git, RStudio, Binder, and Zenodo to demonstrate some of the concepts in practice. This event is open to non-Duke participants. 
 
 This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
 
 The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
 
 Data Science, Data Management"
+PowerPoint Skills for Diagrams,"Wed, Nov 01",10:00am - 12:00pm,Online,https://duke.libcal.com/event/11004281,"While Adobe Illustrator is my preferred software for producing diagrams, PowerPoint is quite full-featured and a great option for those who don't have access to Illustrator. Plus, any skills you gain drawing diagrams will help you create better presentation slides! In this workshop I'll cover basic shape creation and manipulation in Microsoft PowerPoint, including ways to make your own icons with shape combinations. This event is open to non-Duke participants. 
+
+Expectations: 
+
+If you need help with something during the session, you'll be expected to share your screen.
+	You will be expected to arrive with Microsoft PowerPoint already installed on your computer if you want to work along with me or do the exercises during the workshop!
+This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at anytime prior to the conclusion of the workshop.
+
+Data Visualization"
+Preparing for Data Publishing: Standards and Disciplinary Repositories,"Thu, Nov 02",10:00am - 12:00pm,Online,https://duke.libcal.com/event/10998422,"Research data have value beyond their original purpose and by sharing or ""publishing"" your data you can support open science, reproducibility, and future innovation. This workshop will explore strategies and best practices for formally publishing your data in a data repository. Topics covered will include new modes of publishing in academia, the use of data and metadata standards to support interoperability and harmonization, an overview of repository options and key features, examples of disciplinary repositories, and data publishing methods to increase the impact of research projects and support the FAIR Guiding Principles (i.e., Findable, Accessible, Interoperable, and Reusable). Participants will also practice finding and assessing data repositories via a hands-on exercise. This event is open to non-Duke participants.
+
+This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
+
+Data Management"
+Open Scholarship: Practices and Principles,"Thu, Nov 09",1:00pm - 3:00pm,Online,https://duke.libcal.com/event/10998425,"With the recent trends towards openness as expressed in funder and journal policies (such as the new OSTP memo focusing on Immediate and Equitable Access to  Federally Funded Research), many scholars are looking to build new practices into their workflows and enhance their impact. This workshop will present an overview of how and why you might incorporate open scholarship practices into your research and publishing, including the benefits to you, your discipline, and the broader public. It will also prepare you to meet new requirements being put in place by many funding agencies, and give you tools to make sure you can protect your rights and get credit for your work while sharing it broadly. This event is open to non-Duke participants.
+
+This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
+
+Data Management"

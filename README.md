@@ -2,6 +2,8 @@
 
 ![LifeCycle: Stable](https://img.shields.io/badge/lifecycle-stable-brightgreen "LifeCycle: Stable")
 
+**Note to John**:  find at  `~/analysis_dvs_cal`
+
 API orchestration with **SpringShare LibCal** to generate
 
 - beginning of semester workshop list
