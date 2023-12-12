@@ -1,0 +1,239 @@
+title,date,time,presenter,location,registration,description,workshop_id,workshop_begins,begins_display,workshop_ends,ends_display,time_flyer,duration,workshop_duration_minutes,registration_link,day,day_flyer,online_in_person_flyer
+"R for Lunch: getting started (import data, data wrangling)",2023-08-31,12:30pm - 1:30pm,John Little,Bostock 127 (The Edge Workshop Room),https://duke.libcal.com/event/11002152?hs=a,"[In-person] Part of the RFun Series. R for Lunch is a one-hour lunch-time series designed to help people learn R for reproducible computational thinking. R is a data science and data visualization tool which, when combined with RStudio, the Tidyverse, and Quarto, provides a powerful and flexible environment for reproducible research. Note: Lunch will NOT be provided but you are welcome to bring your own!
+
+Register in advance. Meet in Person.  Recordings will be shared on a delayed schedule. This event is open to non-Duke participants. 
+
+R for Lunch (1 hour each)
+- Thursday - 8/31/23 ; 12:30 ; import data / data wrangling with dplyr
+- Friday - 9/1/23 ; 12:30 ; data wrangling with dplyr
+- Friday - 9/8/23 ; 12:30 ; Visualization with ggplot2
+- Friday - 9/15/23 ; 12:30 ; ai-assisted coding ; interactive viz (HTML Widgets, ObservableJS)
+- Friday - 9/22/23 ; 12:30 ; Tidy data ; pivot, join, iteration part1
+- Friday - 9/29/23 ; 12:30 ; functions & purrr; iteration part2
+- Friday - 10/6/23 ; 1:30 ; regression and tidymodels  
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
+
+Data Science",11002152,2023-08-31T16:30:00Z,12:30 PM,2023-08-31T17:30:00Z,01:30 PM,12:30 pm - 01:30 pm,60,60,https://duke.libcal.com/event/11002152,Thu,"Thu, Aug 31",In-Person
+R for Lunch: data wrangling with dplyr,2023-09-01,12:30pm - 1:30pm,John Little,Bostock 127 (The Edge Workshop Room),https://duke.libcal.com/event/11002159?hs=a,"[In-person] Part of the Rfun Series. R for Lunch is a one-hour lunch-time series designed to help people learn R for reproducible computational thinking. R is a data science and data visualization tool which, when combined with RStudio, the Tidyverse, and Quarto, provides a powerful and flexible environment for reproducible research. Note: Lunch will NOT be provided but you are welcome to bring your own!
+
+Register in advance. Meet in Person.  Recordings will be shared on a delayed schedule. This event is open to non-Duke participants.
+
+R for Lunch (1 hour each)
+- Thursday - 8/31/23 ; previous session
+- Friday - 9/1/23 ; 12:30 ; data wrangling with dplyr (builds on previous sessions)
+- Friday - 9/8/23 ; 12:30 ; Visualization with ggplot2
+- Friday - 9/15/23 ; 12:30 ; ai-assisted coding ; interactive viz (HTML Widgets, ObservableJS)
+- Friday - 9/22/23 ; 12:30 ; Tidy data ; pivot, join, iteration part1
+- Friday - 9/29/23 ; 12:30 ; functions & purrr; iteration part2
+- Friday - 10/6/23 ; 1:30 ; regression and tidymodels  
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
+
+Data Science",11002159,2023-09-01T16:30:00Z,12:30 PM,2023-09-01T17:30:00Z,01:30 PM,12:30 pm - 01:30 pm,60,60,https://duke.libcal.com/event/11002159,Fri,"Fri, Sep 01",In-Person
+R for Lunch: visualization with ggplot2,2023-09-08,12:30pm - 1:30pm,John Little,Bostock 127 (The Edge Workshop Room),https://duke.libcal.com/event/11002162?hs=a,"[In-person] Part of the Rfun Series. R for Lunch is a one-hour lunch-time series designed to help people learn R for reproducible computational thinking. R is a data science and data visualization tool which, when combined with RStudio, the Tidyverse, and Quarto, provides a powerful and flexible environment for reproducible research. Note: Lunch will NOT be provided but you are welcome to bring your own!
+
+Register in advance. Meet in Person.  Recordings will be shared on a delayed schedule. This event is open to non-Duke participants.
+
+R for Lunch (1 hour each)
+- previous sessions (8/31 & 9/1)- Friday - 9/8/23 ; 12:30 ; Visualization with ggplot2  (builds on previous sessions)
+- Friday - 9/15/23 ; 12:30 ; ai-assisted coding ; interactive viz (HTML Widgets, ObservableJS)
+- Friday - 9/22/23 ; 12:30 ; Tidy data ; pivot, join, iteration part1
+- Friday - 9/29/23 ; 12:30 ; functions & purrr; iteration part2
+- Friday - 10/6/23 ; 1:30 ; regression and tidymodels  
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
+
+Data Science",11002162,2023-09-08T16:30:00Z,12:30 PM,2023-09-08T17:30:00Z,01:30 PM,12:30 pm - 01:30 pm,60,60,https://duke.libcal.com/event/11002162,Fri,"Fri, Sep 08",In-Person
+Tips for Effective Data Visualization,2023-09-11,6:00pm - 7:00pm,Eric Monson,Online,https://duke.libcal.com/event/11004239?hs=a,"[Online] Visualization is a powerful way to reveal patterns in data, attract attention, and get your message across to an audience quickly and clearly. But, there are many steps in that journey from exploration to information to influence, and many choices to make when putting it all together to tell your story. I will cover some basic guidelines for effective visualization, point out a few common pitfalls to avoid, and run through a critique and iterations of an existing visualization to help you start seeing better choices beyond the program defaults. This event is open to non-Duke participants.
+
+This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
+
+Data Visualization",11004239,2023-09-11T22:00:00Z,06:00 PM,2023-09-11T23:00:00Z,07:00 PM,06:00 pm - 07:00 pm,60,60,https://duke.libcal.com/event/11004239,Mon,"Mon, Sep 11",Online
+Intro to ArcGIS Pro,2023-09-13,10:00am - 12:00pm,Mark Thomas,Online,https://duke.libcal.com/event/11003805?hs=a,"[Online] ArcGIS Pro is the latest flagship desktop GIS client application from Esri.  Compared to the earlier ArcMap interface, it has superior performance as a native 64-bit program. There are a few nice feature enhancements such as multiple layouts in a single project, and it's more fully integrated with ArcGIS Online.
+
+ArcGIS Pro can help you analyze or visualize digital data that has a locational component, and we'll discuss starting points for obtaining data. Examples will focus on social science data and feature (vector) layers, but attendees are encouraged to ask questions regarding their own needs and will be welcome to make one-on-one appointments later for more focused instruction. This is an introductory class, and it's not necessary to be familiar with GIS software beforehand. This event is open to non-Duke participants.
+
+Attendees should have access to ArcGIS Pro. These are the options for Duke affiliates:
+
+OIT Download: Current Duke University students, faculty, and staff can get a free copy to install on their own Windows computer, or a Mac with virtual machine software installed (e.g., VMware or Parallels).
+	Virtual Computing Manager (VCM) from Duke's Office of Information Technology (OIT) allows Duke users to check out a virtual machine with ArcGIS installed and connect via a remote connection.
+For non-Duke affiliates, if you don't have access to a licensed copy of ArcGIS Pro through your institution, you can install a free 21-day trial version to allow you to use the sample data and follow through the instructions in this workshop.
+
+This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at anytime prior to the conclusion of the workshop.
+
+Mapping & GIS",11003805,2023-09-13T14:00:00Z,10:00 AM,2023-09-13T16:00:00Z,12:00 PM,10:00 am - 12:00 pm,120,120,https://duke.libcal.com/event/11003805,Wed,"Wed, Sep 13",Online
+R for Lunch: coding with ChatGPT,2023-09-15,12:30pm - 1:30pm,John Little,Bostock 127 (The Edge Workshop Room),https://duke.libcal.com/event/11002165?hs=a,"[In-person] Part of the Rfun Series. R for Lunch is a one-hour lunch-time series designed to help people learn R for reproducible computational thinking. R is a data science and data visualization tool which, when combined with RStudio, the Tidyverse, and Quarto, provides a powerful and flexible environment for reproducible research. Note: Lunch will NOT be provided but you are welcome to bring your own!
+
+Register in advance. Meet in Person.  Recordings will be shared on a delayed schedule. This event is open to non-Duke participants
+
+R for Lunch (1 hour each)
+- previous sessions (8/3, 9/1, 9/8)- Friday - 9/15/23 ; 12:30 ; ai-assisted coding & interactive viz with HTML Widgets, ObservableJS ;  (builds on previous sessions)
+- Friday - 9/22/23 ; 12:30 ; Tidy data ; pivot, join, iteration part1
+- Friday - 9/29/23 ; 12:30 ; functions & purrr; iteration part2
+- Friday - 10/6/23 ; 1:30 ; regression and tidymodels  
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
+
+Data Science",11002165,2023-09-15T16:30:00Z,12:30 PM,2023-09-15T17:30:00Z,01:30 PM,12:30 pm - 01:30 pm,60,60,https://duke.libcal.com/event/11002165,Fri,"Fri, Sep 15",In-Person
+Meeting Data Management and Sharing Plan Requirements,2023-09-19,1:00pm - 3:00pm,Jen Darragh & Sophia Lafferty-Hess & Office of Scientific Integrity,Online,https://duke.libcal.com/event/10998284?hs=a,"[Online] There are many federal and private funders who require data management and sharing plans as part of a grant application, including NIH who recently implemented a new Data Management and Sharing Policy that went into effect on January 25, 2023. This workshop will cover the components of a data management plan, what makes a strong plan and how to adhere to it, and where to find guidance, tools, resources, and assistance for building funder-based plans. We will also discuss how to make data management plans actionable and meaningful living documents to support research integrity, reproducibility, reuse, and verification of results. This workshop is a collaboration of Duke University Libraries, the Office of Scientific Integrity, and the Medical Center Library and Archives. This event is open to non-Duke participants.
+
+This workshop is eligible for the 200-level faculty and staff RCR. 
+
+This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
+
+Data Management",10998284,2023-09-19T17:00:00Z,01:00 PM,2023-09-19T19:00:00Z,03:00 PM,01:00 pm - 03:00 pm,120,120,https://duke.libcal.com/event/10998284,Tue,"Tue, Sep 19",Online
+Story Maps,2023-09-20,1:00pm - 3:00pm,Drew Keener,Bostock 127 (The Edge Workshop Room),https://duke.libcal.com/event/11003732?hs=a,"[In-person] This workshop will help you get started telling stories with maps on the ArcGIS StoryMaps platform. This easy-to-use web application combines interactive maps with narrative text, images, and videos to provide a powerful communication tool for any project with a spatial component. We will explore the capabilities of the platform, share best practices for designing effective stories, and guide participants through the process of creating their own story maps.
+
+No previous experience with GIS is necessary. This event is open to non-Duke participants. 
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
+
+Mapping & GIS",11003732,2023-09-20T17:00:00Z,01:00 PM,2023-09-20T19:00:00Z,03:00 PM,01:00 pm - 03:00 pm,120,120,https://duke.libcal.com/event/11003732,Wed,"Wed, Sep 20",In-Person
+Flourish for Simple Network Visualizations,2023-09-21,10:00am - 11:00am,Eric Monson,Online,https://duke.libcal.com/event/11004260?hs=a,"[Online] Flourish is an online tool for ""Beautiful and easy data visualization and storytelling"". There are an amazing variety of standard and unusual visualization types available, one of which is a network (node-link / graph) diagram. While Gephi is my tool of choice for complicated networks, Flourish works great for simpler networks – interactive on the web, or static in a PowerPoint slide. In this workshop I'll show you the required data format, how to import it into the tool, adjust visual properties, and export to an SVG file which can be edited in PowerPoint. This event is open to non-Duke participants. 
+
+Expectations:
+
+If you want to play along with the exercises during the session, it will save time for you to register for a free account on Flourish before you arrive: https://flourish.studio/
+	If you need help with something during the session, you'll be expected to share your screen.
+This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at anytime prior to the conclusion of the workshop.
+
+Data Visualization",11004260,2023-09-21T14:00:00Z,10:00 AM,2023-09-21T15:00:00Z,11:00 AM,10:00 am - 11:00 am,60,60,https://duke.libcal.com/event/11004260,Thu,"Thu, Sep 21",Online
+Tools for Data Management,2023-09-21,2:00pm - 4:00pm,Jen Darragh & Sophia Lafferty-Hess & John Little & Kelsey Smith,Online,https://duke.libcal.com/event/10998307?hs=a,"[Online] This workshop will first introduce data management practices for researchers to consider and apply throughout the research lifecycle. Good data management practices pertaining to planning, organization, documentation, storage and backup, sharing, citation, and preservation will be presented using examples that span disciplines. The second hour of this workshop will offer a mini “tour” of research data management tools including GitHub, LabArchives, and OSF and provide a framework for considering how to assess data management tools for future adoption. This event is open to non-Duke participants.
+
+This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
+
+Data Management, Data Science",10998307,2023-09-21T18:00:00Z,02:00 PM,2023-09-21T20:00:00Z,04:00 PM,02:00 pm - 04:00 pm,120,120,https://duke.libcal.com/event/10998307,Thu,"Thu, Sep 21",Online
+"R for Lunch: pivot, join, and iteration",2023-09-22,12:30pm - 1:30pm,John Little,Bostock 127 (The Edge Workshop Room),https://duke.libcal.com/event/11002167?hs=a,"[In-person] Part of the Rfun Series. R for Lunch is a one-hour lunch-time series designed to help people learn R for reproducible computational thinking. R is a data science and data visualization tool which, when combined with RStudio, the Tidyverse, and Quarto, provides a powerful and flexible environment for reproducible research. Note: Lunch will NOT be provided but you are welcome to bring your own!
+
+Register in advance. Meet in Person.  Recordings will be shared on a delayed schedule. This event is open to non-Duke participants. 
+
+R for Lunch (1 hour each)
+- previous sessions (8/3, 9/1, 9/8, 9/15)- Friday - 9/22/23 ; 12:30 ; Tidy data ; pivot, join, iteration part1;  (builds on previous sessions)
+- Friday - 9/29/23 ; 12:30 ; functions & purrr; iteration part2
+- Friday - 10/6/23 ; 1:30 ; regression and tidymodels  
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
+
+Data Science",11002167,2023-09-22T16:30:00Z,12:30 PM,2023-09-22T17:30:00Z,01:30 PM,12:30 pm - 01:30 pm,60,60,https://duke.libcal.com/event/11002167,Fri,"Fri, Sep 22",In-Person
+Creating Online Maps with ArcGIS,2023-09-26,10:00am - 12:00pm,Drew Keener,Bostock 127 (The Edge Workshop Room),https://duke.libcal.com/event/11003768?hs=a,"[In-person] This introductory workshop will teach you how to build interactive online maps. After reviewing fundamental mapping concepts and technologies, we will walk through hands-on activities in Esri's ArcGIS Online. ArcGIS Online is a cloud-based mapping and analysis platform you can use in your web browser. Topics will include: finding geospatial data, designing effective maps, sharing web applications, and using basic spatial analysis tools. This event is open to non-Duke participants. 
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
+
+Mapping & GIS",11003768,2023-09-26T14:00:00Z,10:00 AM,2023-09-26T16:00:00Z,12:00 PM,10:00 am - 12:00 pm,120,120,https://duke.libcal.com/event/11003768,Tue,"Tue, Sep 26",In-Person
+Intro to QGIS,2023-09-27,10:00am - 12:00pm,Mark Thomas,Online,https://duke.libcal.com/event/11003806?hs=a,"[Online] Are you looking for an open source, but still full-featured, option for GIS to make maps or to analyze geospatial data? In this workshop we will demonstrate how to import and analyze data in QGIS and discuss the benefits of using QGIS over other GIS software. It's free and available for many platforms, not just Windows as is ArcGIS. In the process, we'll go over some general GIS concepts such as layers, types of GIS files, and projections, with an emphasis on feature (vector) layers. This is an introductory class, and no prior GIS experience is needed. This event is open to non-Duke participants. 
+
+Attendees should have installed QGIS beforehand.
+
+Go to the QGIS Downloads webpage.
+	Download and install the QGIS Installer for either the latest version or the latest long-term (most stable) release.  Versions for several platforms are available.
+This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at anytime prior to the conclusion of the workshop.
+
+Mapping & GIS",11003806,2023-09-27T14:00:00Z,10:00 AM,2023-09-27T16:00:00Z,12:00 PM,10:00 am - 12:00 pm,120,120,https://duke.libcal.com/event/11003806,Wed,"Wed, Sep 27",Online
+Ethics of Data Management and Sharing,2023-09-27,1:00pm - 3:00pm,Jen Darragh & Sophia Lafferty-Hess,Online,https://duke.libcal.com/event/10998309?hs=a,"[Online] This workshop will explore the many different ethical issues that can arise with data management and sharing and strategies to address those issues. Topics covered will include a framework for analyzing ethical cases, the use of secondary data in research, proper consent procedures, de-identification, and the impact of laws on data sharing. We will also explore the application of diversity and equity principles to open science and data sharing. For instance, how can researchers ethically collect, handle, and share data from certain communities, such as Indigenous People? This workshop will contain both lecture and small group discussion where participants will engage with key ethical concepts and apply those concepts to a case-study. This event is open to non-Duke participants.
+
+This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
+
+Data Management",10998309,2023-09-27T17:00:00Z,01:00 PM,2023-09-27T19:00:00Z,03:00 PM,01:00 pm - 03:00 pm,120,120,https://duke.libcal.com/event/10998309,Wed,"Wed, Sep 27",Online
+R for Lunch: functions and iteration,2023-09-29,12:30pm - 1:30pm,John Little,Bostock 127 (The Edge Workshop Room),https://duke.libcal.com/event/11002169?hs=a,"[In-person] Part of the Rfun Series. R for Lunch is a one-hour lunch-time series designed to help people learn R for reproducible computational thinking. R is a data science and data visualization tool which, when combined with RStudio, the Tidyverse, and Quarto, provides a powerful and flexible environment for reproducible research. Note: Lunch will NOT be provided but you are welcome to bring your own!
+
+Register in advance. Meet in Person.  Recordings will be shared on a delayed schedule. This event is open to non-Duke participants
+
+R for Lunch (1 hour each)
+- previous sessions (8/3, 9/1, 9/8, 9/15, 9/22)- Friday - 9/29/23 ; 12:30 ; functions & purrr, iteration (continued);  (builds on previous sessions)
+- Friday - 10/6/23 ; 1:30 ; regression and tidymodels  
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
+
+Data Science",11002169,2023-09-29T16:30:00Z,12:30 PM,2023-09-29T17:30:00Z,01:30 PM,12:30 pm - 01:30 pm,60,60,https://duke.libcal.com/event/11002169,Fri,"Fri, Sep 29",In-Person
+Paper Maps in Digital Projects,2023-10-03,11:00am - 12:00pm,Drew Keener,Bostock 121 (Murthy Digital Studio),https://duke.libcal.com/event/11003792?hs=a,"[In-person] Do you want to incorporate paper maps into an interactive online map? Overlaying scanned maps can help illustrate change over time, offer additional context, provide a visually appropriate background, and give access to spatial data not available in other formats.
+
+This workshop will teach you how to bring paper maps into web mapping tools. We will cover concepts and techniques related to georeferencing, the process of aligning map images with the correct locations on the earth. Tutorials will present steps with easy web-based tools; no software is needed. In addition to learning the process, we will discuss some challenges of working with historical maps.
+
+Prior experience with GIS is not required. This event is open to non-Duke participants. 
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
+
+Mapping & GIS",11003792,2023-10-03T15:00:00Z,11:00 AM,2023-10-03T16:00:00Z,12:00 PM,11:00 am - 12:00 pm,60,60,https://duke.libcal.com/event/11003792,Tue,"Tue, Oct 03",In-Person
+Intro to Tableau: Easy Charts & Maps,2023-10-05,2:00pm - 4:00pm,Eric Monson,Online,https://duke.libcal.com/event/11004270?hs=a,"[Online] Tableau Public (available for both Windows and Mac) is incredibly useful free software that allows individuals to quickly and easily explore their data with a wide variety of visual representations, as well as create interactive web-based visualization dashboards. This workshop will focus on using Tableau Public to create data visualizations, starting with an overview of how the program thinks about data, common data manipulation and loading, and the terminology used. Activities will include a sample data visualization and mapping project, which will give people hands-on experience using Tableau’s basic chart types and dashboard creation tools. We will also discuss publishing to the Tableau Public web server and related services and tools, like the full Tableau Desktop application (free for full-time students).
+
+This workshop is designed for beginners who might be comfortable with data and spreadsheets, but have no experience with Tableau, are curious about what it can do, and want to get a quick introduction so they can start playing on their own. This event is open to non-Duke participants.
+
+Expectations: 
+
+If you need help with something during the session, you'll be expected to share your screen.
+	You will be expected to arrive with Tableau Public or Desktop already installed on the machine you're Zooming from if you want to work along with me or do the exercises during the workshop!
+	Tableau is available through the company itself, not OIT
+		Tableau Public is free and available for Mac and Windows. Download at: https://www.tableau.com/products/public/download 
+		Tableau Desktop licenses are free for students (Google ""Tableau for Students"") or those doing non-profit research (as defined by Tableau – Google ""Tableau for Teaching"")
+		Please don't use the online Web Authoring version that just runs in your browser if you're planning to play along with the exercises – there are some differences that cause problems.
+	
+This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at anytime prior to the conclusion of the workshop.
+
+Data Visualization",11004270,2023-10-05T18:00:00Z,02:00 PM,2023-10-05T20:00:00Z,04:00 PM,02:00 pm - 04:00 pm,120,120,https://duke.libcal.com/event/11004270,Thu,"Thu, Oct 05",Online
+R for Lunch: regression and tidymodels,2023-10-06,1:30pm - 2:30pm,John Little,Bostock 127 (The Edge Workshop Room),https://duke.libcal.com/event/11002170?hs=a,"[In-person] Part of the Rfun Series. R for Lunch is a one-hour lunch-time series designed to help people learn R for reproducible computational thinking. R is a data science and data visualization tool which, when combined with RStudio, the Tidyverse, and Quarto, provides a powerful and flexible environment for reproducible research. Note: Lunch will NOT be provided but you are welcome to bring your own!
+
+Register in advance. Meet in Person.  Recordings will be shared on a delayed schedule. This event is open to non-Duke participants. 
+
+R for Lunch (1 hour each)
+- previous sessions (8/3, 9/1, 9/8, 9/15, 9/22, 9/29)
+- Friday - 10/6/23 ; New time 1:30 ; regression and tidymodels;  (builds on previous sessions). This session will focus on how to maniuplate models compuatationally.  This is not a workshop on interpretting or choosing statistical models.
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
+
+Data Science",11002170,2023-10-06T17:30:00Z,01:30 PM,2023-10-06T18:30:00Z,02:30 PM,01:30 pm - 02:30 pm,60,60,https://duke.libcal.com/event/11002170,Fri,"Fri, Oct 06",In-Person
+Mapping with R,2023-10-10,10:00am - 12:00pm,Drew Keener,Bostock 127 (The Edge Workshop Room),https://duke.libcal.com/event/11003775?hs=a,"[In-person] This workshop introduces the use of the R language for producing maps. We will demonstrate the advantages of a code-drive approach such as R for visualizing geospatial data. Participants will gain the skills to quickly and efficiently create a variety of map types for a website, presentation, or publication. In addition to working on hands-on coding exercises, we will also review practical guidance on designing effective maps.
+
+Attendees will need basic familiarity with R and RStudio to follow along with the exercises. Knowledge of tidyverse packages such as ggplot2 and dplyr is also helpful. This event is open to non-Duke participants. 
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
+
+Mapping & GIS, Data Science",11003775,2023-10-10T14:00:00Z,10:00 AM,2023-10-10T16:00:00Z,12:00 PM,10:00 am - 12:00 pm,120,120,https://duke.libcal.com/event/11003775,Tue,"Tue, Oct 10",In-Person
+An Introduction to Reproducible Research Practices,2023-10-11,10:00am - 12:00pm,Sophia Lafferty-Hess & John Little,Online,https://duke.libcal.com/event/10998311?hs=a,"[Online] The importance of reproducibility, replication, and transparency in the research endeavor is increasingly discussed in academia. This workshop will introduce the concept of “reproducibility” and foundational strategies that can increase the reproducibility of your work particularly related to organization, documentation, literate coding techniques, version control, and archiving data and code for future access and use. We will also present a protocol, the TIER protocol, as a tool that graduate students or others can use that are first approaching reproducibility. In the second half of the workshop we will present a potential end-to-end reproducible workflow using git, RStudio, Binder, and Zenodo to demonstrate some of the concepts in practice. This event is open to non-Duke participants. 
+
+This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
+
+Data Science, Data Management",10998311,2023-10-11T14:00:00Z,10:00 AM,2023-10-11T16:00:00Z,12:00 PM,10:00 am - 12:00 pm,120,120,https://duke.libcal.com/event/10998311,Wed,"Wed, Oct 11",Online
+PowerPoint Skills for Diagrams,2023-11-01,10:00am - 12:00pm,Eric Monson,Online,https://duke.libcal.com/event/11004281?hs=a,"[Online] While Adobe Illustrator is my preferred software for producing diagrams, PowerPoint is quite full-featured and a great option for those who don't have access to Illustrator. Plus, any skills you gain drawing diagrams will help you create better presentation slides! In this workshop I'll cover basic shape creation and manipulation in Microsoft PowerPoint, including ways to make your own icons with shape combinations. This event is open to non-Duke participants. 
+
+Expectations: 
+
+If you need help with something during the session, you'll be expected to share your screen.
+	You will be expected to arrive with Microsoft PowerPoint already installed on your computer if you want to work along with me or do the exercises during the workshop!
+This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at anytime prior to the conclusion of the workshop.
+
+Data Visualization",11004281,2023-11-01T14:00:00Z,10:00 AM,2023-11-01T16:00:00Z,12:00 PM,10:00 am - 12:00 pm,120,120,https://duke.libcal.com/event/11004281,Wed,"Wed, Nov 01",Online
+Preparing for Data Publishing: Standards and Disciplinary Repositories,2023-11-02,10:00am - 12:00pm,Sophia Lafferty-Hess & Jen Darragh,Online,https://duke.libcal.com/event/10998422?hs=a,"[Online] Research data have value beyond their original purpose and by sharing or ""publishing"" your data you can support open science, reproducibility, and future innovation. This workshop will explore strategies and best practices for formally publishing your data in a data repository. Topics covered will include new modes of publishing in academia, the use of data and metadata standards to support interoperability and harmonization, an overview of repository options and key features, examples of disciplinary repositories, and data publishing methods to increase the impact of research projects and support the FAIR Guiding Principles (i.e., Findable, Accessible, Interoperable, and Reusable). Participants will also practice finding and assessing data repositories via a hands-on exercise. This event is open to non-Duke participants.
+
+This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
+
+Data Management",10998422,2023-11-02T14:00:00Z,10:00 AM,2023-11-02T16:00:00Z,12:00 PM,10:00 am - 12:00 pm,120,120,https://duke.libcal.com/event/10998422,Thu,"Thu, Nov 02",Online
+Open Scholarship: Practices and Principles,2023-11-09,1:00pm - 3:00pm,"Jen Darragh, Sophia Lafferty-Hess & Paolo Mangiafico",Online,https://duke.libcal.com/event/10998425?hs=a,"[Online] With the recent trends towards openness as expressed in funder and journal policies (such as the new OSTP memo focusing on Immediate and Equitable Access to  Federally Funded Research), many scholars are looking to build new practices into their workflows and enhance their impact. This workshop will present an overview of how and why you might incorporate open scholarship practices into your research and publishing, including the benefits to you, your discipline, and the broader public. It will also prepare you to meet new requirements being put in place by many funding agencies, and give you tools to make sure you can protect your rights and get credit for your work while sharing it broadly. This event is open to non-Duke participants.
+
+This event is offered virtually. A zoom link will be sent via email to registered participants to join the workshop.
+
+The content of the workshop may be recorded. If you are uncomfortable with a recording being published, please contact the instructor at any time prior to the conclusion of the workshop.
+
+Data Management",10998425,2023-11-09T18:00:00Z,01:00 PM,2023-11-09T20:00:00Z,03:00 PM,01:00 pm - 03:00 pm,120,120,https://duke.libcal.com/event/10998425,Thu,"Thu, Nov 09",Online

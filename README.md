@@ -14,7 +14,7 @@ This repository contains a mixture of handy scripts and datasets used by the [Ce
 
 This repository was **forked** from https://github.com/herndonj/dvs_cal
 
-* **02_make_main_workshop_list.Rmd** - a migration from `rvestLibcalCode.R`.  Use this to generate the pre-semester _list of workshops_ and the pre-semester advertising **flyer**.  Gathers data from the LibCal API, writes a CSV file, writes a GoogleSheet to the google account holder's home directory (via `library(googlesheets4)`)
+* **02_make_main_workshop_list.Rmd** - a migration from `rvestLibcalCode.R`.  Use this to generate the pre-semester _list of workshops_ and the pre-semester advertising **flyer**.  Gathers data from the LibCal API, writes a CSV file, writes a GoogleSheet to the google account holder's home directory (via `library(googlesheets4)`).  This script _sources_ `01_gather_and_wrangle.R` so there is **no need to run that file separately.  i.e. the main script is `02_make_main_workshop_list.Rmd`.**
 * **03_attendance_worksheets.Rmd** - make an attendance sheet for each workshop, upload to Google Drive (CDVS folder)
 * **01_gather_and_wrangle.R** - havest LibCal API data to make a data_frame of all the workshops as reported at the beginning of the semester.
 

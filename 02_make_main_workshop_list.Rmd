@@ -68,8 +68,11 @@ write_csv(for_goog_flyer_df, "output/forgoog_flyer.csv")
 ```{r eval=FALSE, include=FALSE}
 # googlesheets4::gs4_create("Main Workshop list for Semester", sheets = list(sname = my_df))
 
-googlesheets4::gs4_create("Main Workshop list for Semester",
+googlesheets4::gs4_create("Main Workshop list for Semester - skinny",
                           sheets = list(Sheet1 = for_goog_flyer_df),
+                          timeZone = "America/New_York")
+googlesheets4::gs4_create("Main Workshop list for Semester - wide",
+                          sheets = list(Sheet1 = my_df),
                           timeZone = "America/New_York")
 ```
 
@@ -79,7 +82,7 @@ See "Manually upload"
 
 ### above chunk 
 
-may have to be be run manually.  It will upload to your google drive home directory (Look in the "recent" folder on google drive).  Then move to the proper path in Google Drive.  **BE SURE TO CHECK THE DATES**.  Google drive has a tendency to fock up the dates and impose GMT instead of EST!!   I noticed this when manually uploading.  See note...
+may have to be be run manually.  It will upload to your google drive home directory (Look in the "recent" folder on google drive).  Then move to the proper path in Google Drive.  **BE SURE TO CHECK THE DATES**.  Google drive has a tendency to foul-up the dates and impose GMT instead of EST!!   I noticed this when manually uploading.  See note...
 
 
 ### Manual upload notes
