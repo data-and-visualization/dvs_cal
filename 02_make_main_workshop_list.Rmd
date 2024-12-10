@@ -27,7 +27,7 @@ Ingest data from web page (LibCal API) & make a column headers template for the 
 
 ### harvest webpage data from LibCal API
 
-this next CODE CHUNK is DISABLED, but designed to rerun the harvest script
+this next CODE CHUNK is DISABLED, but designed to rerun the harvest script.  Manually, you must click the green execute arrow.
 
 
 ```{r get wrangled data, include=FALSE}
@@ -40,7 +40,8 @@ source("01_gather_and_wrangle.R", local = knitr::knit_global())
 ```{r}
 for_goog_flyer_df <- my_df |> 
     mutate(description = str_trim(str_remove_all(description, "\\[(Online|In-person)\\]"))) |> 
-    select(Workshop = title, Date = day_flyer, Time = time, Mode = online_in_person_flyer, registration_link, description) 
+    # select(Workshop = title, Date = day_flyer, Time = time, Mode = online_in_person_flyer, registration_link, description) 
+    select(Workshop = title, Date = day_flyer, Time = begins_display, Mode = online_in_person_flyer, registration_link, description) 
 
 for_goog_flyer_df 
 ```
@@ -90,7 +91,7 @@ may have to be be run manually.  It will upload to your google drive home direct
     - Rename and prepend with DO_NOT_MODIFY_workshops_spring_2023.csv
     - check dates
 3. Then open the output/workshops.csv copy select columns from excel, paste to notepad++; then  re-copy and paste into Google Drive (GD)
-    - paste **FROM** notepad++ **INTO** the Google Drive sheet `DVS_Workshops_summary_stats` (`GD > CDVS > Services > Workshops > _Assessment > longitudinal`) columns A, B, and C:  
+    - paste **FROM** notepad++ **INTO** the Google Drive sheet `DVS_Workshops_summary_stats` (`GD > CDVS > Workshops > _Assessment > longitudinal`) columns A, B, and C:  
         - Excel column B to notepad to GD column A     [date]
         - Excel column H to notepad to GD column B     [workshop id]
         - Excel column A to notepad to GD column C     [workshop name] 

@@ -77,26 +77,44 @@ my_df$registration <- registration_list
 
 # Transform the data to look just like the original from Joel.
 my_df <- my_df %>%
-    mutate(workshop_id = str_extract(registration, "(?<=event/)\\d+")) %>% 
-    mutate(workshop_begins = date_time_parse(glue::glue("{date} {str_extract(time, '.*[ap]m(?= - )')}"),
-                                             "America/New_York",
-                                             format = "%a, %b %d, %Y %I:%M%p")) %>% 
-    mutate(begins_display = date_format(workshop_begins, format = "%I:%M %p")) %>% 
-    mutate(workshop_ends = date_time_parse(glue::glue("{date} {str_extract(time, '(?<= - ).*[ap]m')}"),
-                                           "America/New_York",
-                                           format = "%a, %b %d, %Y %I:%M%p")) %>% 
-    mutate(ends_display = date_format(workshop_ends, format = "%I:%M %p")) %>% 
-    mutate(time_flyer = str_to_lower(glue::glue("{begins_display} - {ends_display}"))) %>% 
-    mutate(duration = as.numeric(workshop_ends - workshop_begins) * 60) %>% 
-    mutate(workshop_duration_minutes = as.character(duration)) %>% 
-    # mutate(description = str_extract(description, ".*(?<=\\.)")) %>%            # take only the first paragraph
-    # mutate(description = str_remove(description, "^[Online] ")) |> 
+    mutate(workshop_id = str_extract(registration, "(?<=event/)\\d+")) |> 
+    mutate(workshop_begins = parse_date_time(from, 
+                                             orders = "%I:%M%p %A, %B %d, %Y")) |> 
+    mutate(workshop_ends = parse_date_time(to, 
+                                           orders = "%I:%M%p %A, %B %d, %Y")) |> 
+    mutate(begins_display = date_format(workshop_begins, format = "%I:%M %p")) |> 
+    mutate(ends_display = date_format(workshop_ends, format = "%I:%M %p")) |> 
+    mutate(time_flyer = str_to_lower(glue::glue("{begins_display} - {ends_display}"))) |> 
+    mutate(duration = as.numeric(workshop_ends - workshop_begins) * 60) |> 
+    mutate(workshop_duration_minutes = as.character(duration)) |> 
     mutate(registration_link = str_extract(registration, ".*(?=\\?)")) %>% 
     mutate(date = date_format(workshop_begins, format = "%F")) %>%
     mutate(day = date_format(workshop_begins, format = "%a")) %>% 
     mutate(day_flyer = date_format(workshop_begins, format = "%a, %h %d")) %>% 
-    mutate(online_in_person_flyer = if_else(location == "Online", location, "In-Person")) |> 
-    arrange(workshop_begins, workshop_id)    
+    mutate(online_in_person_flyer = if_else(location == "Online", location, "In-Person"))
+    
+    # old
+    # my_df %>%
+    # mutate(workshop_id = str_extract(registration, "(?<=event/)\\d+")) %>% 
+    # mutate(workshop_begins = date_time_parse(glue::glue("{date} {str_extract(time, '.*[ap]m(?= - )')}"),
+    #                                          "America/New_York",
+    #                                          format = "%a, %b %d, %Y %I:%M%p")) %>% 
+    # mutate(begins_display = date_format(workshop_begins, format = "%I:%M %p")) %>% 
+    # mutate(workshop_ends = date_time_parse(glue::glue("{date} {str_extract(time, '(?<= - ).*[ap]m')}"),
+    #                                        "America/New_York",
+    #                                        format = "%a, %b %d, %Y %I:%M%p")) %>% 
+    # mutate(ends_display = date_format(workshop_ends, format = "%I:%M %p")) %>% 
+    # mutate(time_flyer = str_to_lower(glue::glue("{begins_display} - {ends_display}"))) %>% 
+    # mutate(duration = as.numeric(workshop_ends - workshop_begins) * 60) %>% 
+    # mutate(workshop_duration_minutes = as.character(duration)) %>% 
+    # # mutate(description = str_extract(description, ".*(?<=\\.)")) %>%            # take only the first paragraph
+    # # mutate(description = str_remove(description, "^[Online] ")) |> 
+    # mutate(registration_link = str_extract(registration, ".*(?=\\?)")) %>% 
+    # mutate(date = date_format(workshop_begins, format = "%F")) %>%
+    # mutate(day = date_format(workshop_begins, format = "%a")) %>% 
+    # mutate(day_flyer = date_format(workshop_begins, format = "%a, %h %d")) %>% 
+    # mutate(online_in_person_flyer = if_else(location == "Online", location, "In-Person")) |> 
+    # arrange(workshop_begins, workshop_id)    
 
 
 
