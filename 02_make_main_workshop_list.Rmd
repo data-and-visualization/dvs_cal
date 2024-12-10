@@ -62,17 +62,6 @@ write_csv(my_df, "output/workshops.csv")
 write_csv(for_goog_flyer_df, "output/forgoog_flyer.csv")  
 ```
 
-## For Flyer Upload 
-
-- run next code-chunk manually.  Check dates.  Move to proper Google Drive locations.  See  to Google Sheets.  See 'Manual upload notes' below.
-
-```{r eval=FALSE, include=FALSE}
-# googlesheets4::gs4_create("Main Workshop list for Semester", sheets = list(sname = my_df))
-
-googlesheets4::gs4_create("Main Workshop list for Semester",
-                          sheets = list(Sheet1 = for_goog_flyer_df),
-                          timeZone = "America/New_York")
-```
 
 ## Next steps
 
@@ -80,7 +69,7 @@ See "Manually upload"
 
 ### above chunk 
 
-may have to be be run manually.  It will upload to your google drive home directory (Look in the "recent" folder on google drive).  Then move to the proper path in Google Drive.  **BE SURE TO CHECK THE DATES**.  Google drive has a tendency to fock up the dates and impose GMT instead of EST!!   I noticed this when manually uploading.  See note...
+may have to be be run manually.  It will upload to your google drive home directory (Look in the "recent" folder on google drive).  Then move to the proper path in Google Drive.  **BE SURE TO CHECK THE DATES**.  Google drive has a tendency to foul-up the dates and impose GMT instead of EST!!   I noticed this when manually uploading.  See note...
 
 
 ### Manual upload notes
@@ -101,5 +90,6 @@ may have to be be run manually.  It will upload to your google drive home direct
 
 
 #### Note  
+- Fall 2024 required a lot of rewriting in the 01 and 02 scripts.  The SpringShare API changes often.
 - Ran this during spring of 2023.  It all worked fine.  
   - By spring of 2022 this problem had resolved but in the fall of 2021 there were extraneous leading single apostrophes showing up in the uploaded data.  This was probably a bug with `library(googlesheets4)`. The manual work-around, instead of `gs4_create()`, was to upload the forgoog_flyer.csv file **manually** to Google Drive, then open the csv on Google Drive, and then "Open With" as a Sheet.  BUT, this allowed Google to force it's own GMT timezone.  So, you have to open blank sheet (sheets.new), Then `import`, then be sure not to allow any automatic conversion of fields (this is an option in the later stages of the import.)
