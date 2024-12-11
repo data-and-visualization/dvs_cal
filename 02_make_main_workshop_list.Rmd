@@ -41,7 +41,7 @@ source("01_gather_and_wrangle.R", local = knitr::knit_global())
 for_goog_flyer_df <- my_df |> 
     mutate(description = str_trim(str_remove_all(description, "\\[(Online|In-person)\\]"))) |> 
     # select(Workshop = title, Date = day_flyer, Time = time, Mode = online_in_person_flyer, registration_link, description) 
-    select(Workshop = title, Date = day_flyer, Time = begins_display, Mode = online_in_person_flyer, registration_link, description) 
+    select(Workshop = title, Date = day_flyer, Time = time_flyer, Time_begins = begins_display, Mode = online_in_person_flyer, registration_link, description) 
 
 for_goog_flyer_df 
 ```
